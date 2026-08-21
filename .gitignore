@@ -1,0 +1,11 @@
+.history/
+*.bak
+*.lck
+*.kicad_dru
+*.kicad_prl
+*.pdf
+*-backups/
+bom/
+produts/
+fp-lib-table
+sym-lib-table

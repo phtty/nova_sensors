@@ -16547,92 +16547,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 118.11 125.73 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5ead8e62-0db0-4fd0-9e6b-b8fb446ec49c")
-		(property "Reference" "J3"
-			(at 118.364 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 119.38 130.302 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 118.11 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 118.11 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "303af640-c8d3-488a-a99e-fb0c1d7c898a")
-		)
-		(pin "3"
-			(uuid "d360e7a3-5c23-4553-bab0-1a664aa9f25a")
-		)
-		(pin "2"
-			(uuid "b5f92e12-a867-4623-b254-276efddc95e8")
-		)
-		(pin "4"
-			(uuid "4073fe75-a313-4af4-8314-decffe829104")
-		)
-		(instances
-			(project "nova_sensors"
-				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 248.92 54.61 0)
 		(unit 1)
@@ -17350,6 +17264,93 @@
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 118.11 123.19 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e5c41c7-aa65-483c-80d2-f0d904d2f92b")
+		(property "Reference" "J3"
+			(at 118.364 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 119.38 118.618 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 118.11 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 118.11 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15f439e5-94dc-4050-8059-ca97d56cd7e8")
+		)
+		(pin "3"
+			(uuid "9a58f338-01e9-4142-bb8d-f88de2690f7b")
+		)
+		(pin "2"
+			(uuid "d15416e2-fb27-4a56-80d7-d9367d0938e6")
+		)
+		(pin "4"
+			(uuid "7f1e26ba-79a0-4790-82ee-f8e34dc20b2a")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "J3")
 					(unit 1)
 				)
 			)

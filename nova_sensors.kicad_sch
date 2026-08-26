@@ -1610,172 +1610,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_TVS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_TVS"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_TVS_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_TVS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -2667,6 +2501,362 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SMAJ5.0CA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ5.0CA"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "bidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMAJ5.0CA_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ5.0CA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SMAJ8.0CA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ8.0CA"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "400W bidirectional Transient Voltage Suppressor, 8.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "bidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMAJ8.0CA_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ8.0CA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7039,7 +7229,7 @@
 	)
 	(text "ADC/IO"
 		(exclude_from_sim no)
-		(at 347.98 217.424 0)
+		(at 348.488 214.122 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -7089,6 +7279,12 @@
 		(uuid "098e9ddd-d7bb-4813-93b9-1e2ea1a6a089")
 	)
 	(junction
+		(at 260.35 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cec035a-8379-44c1-a477-4dce7fc3bfd1")
+	)
+	(junction
 		(at 55.88 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7113,6 +7309,12 @@
 		(uuid "1497a03b-490b-443b-bc5d-d54dc14086c0")
 	)
 	(junction
+		(at 331.47 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16d55cc5-c2bd-4d24-a2f2-250e73948d0f")
+	)
+	(junction
 		(at 107.95 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7129,6 +7331,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1cabff6a-aec0-4119-adce-1bcdf3ecaf8e")
+	)
+	(junction
+		(at 331.47 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ed48c46-796f-4feb-8bd3-b58a0d127ed7")
 	)
 	(junction
 		(at 167.64 44.45)
@@ -7161,6 +7369,18 @@
 		(uuid "2a47d681-0803-486c-ac8d-8e733d9194e8")
 	)
 	(junction
+		(at 359.41 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d34cb8d-922e-4afa-bce8-dd0a12070f43")
+	)
+	(junction
+		(at 299.72 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d83fe69-1e6d-4e64-81b1-06bbc938712e")
+	)
+	(junction
 		(at 100.33 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7171,12 +7391,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "302263c6-cee1-46fc-acfb-b95849b3122c")
-	)
-	(junction
-		(at 321.31 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30348c79-0953-4027-b80e-979ad953c5fa")
 	)
 	(junction
 		(at 113.03 251.46)
@@ -7197,13 +7411,31 @@
 		(uuid "3a83897c-8874-47ff-8b65-a346f5bcb475")
 	)
 	(junction
+		(at 228.6 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "433c77e3-e513-497e-b12d-4f4a9e487045")
+	)
+	(junction
 		(at 241.3 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44645a9a-d9fd-4bbf-bd9b-08020a294870")
 	)
 	(junction
-		(at 257.81 273.05)
+		(at 359.41 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44ed4682-82b2-4fa2-aed8-96fcc364a4cb")
+	)
+	(junction
+		(at 311.15 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46ea222e-ced2-452d-80bf-b5a0ba5bb519")
+	)
+	(junction
+		(at 260.35 273.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47ef5e35-26cb-44de-ab11-87f3b6819673")
@@ -7221,6 +7453,12 @@
 		(uuid "526e90a1-e821-4ad4-b556-607759180139")
 	)
 	(junction
+		(at 308.61 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59503041-63a6-4250-85cf-52add76868be")
+	)
+	(junction
 		(at 140.97 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7233,10 +7471,22 @@
 		(uuid "5bf675aa-1d68-4590-844a-57cb7a864737")
 	)
 	(junction
+		(at 299.72 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c52e857-54ad-47eb-96b2-62841a784e84")
+	)
+	(junction
 		(at 153.67 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f8115f0-2bff-4d95-964a-a6d042e9bf99")
+	)
+	(junction
+		(at 290.83 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62d3877e-2f5f-4744-b138-649ad8351261")
 	)
 	(junction
 		(at 287.02 173.99)
@@ -7257,12 +7507,6 @@
 		(uuid "66dfe845-5d65-4057-a748-aff786b0cec5")
 	)
 	(junction
-		(at 321.31 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68904c12-dbbd-4492-910c-707f5c25d7cd")
-	)
-	(junction
 		(at 49.53 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7281,22 +7525,28 @@
 		(uuid "7729ae5c-4ddb-4409-b5ce-3245e038d353")
 	)
 	(junction
-		(at 311.15 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b6bc5cd-5aeb-4435-8131-ba7a59e9516a")
-	)
-	(junction
 		(at 127 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f1eb324-1ab5-449a-83fd-a529ba1b1bf1")
 	)
 	(junction
+		(at 317.5 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "816de08d-aa32-42ee-adb4-f8f7af8a1f02")
+	)
+	(junction
 		(at 102.87 256.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82eadbc4-8e72-4607-82ff-a0878886fa12")
+	)
+	(junction
+		(at 321.31 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86545cea-6fcf-4e23-8b3b-660d509480b5")
 	)
 	(junction
 		(at 127 251.46)
@@ -7311,16 +7561,28 @@
 		(uuid "8b5d37e4-a7df-4ff3-bfb6-c7dac62bcbc5")
 	)
 	(junction
+		(at 311.15 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bc6118a-97ce-4e84-be50-6ff869796c9d")
+	)
+	(junction
 		(at 264.16 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8be0da16-eab8-49a0-8464-f8b1401215e0")
 	)
 	(junction
-		(at 269.24 273.05)
+		(at 271.78 273.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c764720-035c-49d7-8707-fef3fa791d0e")
+	)
+	(junction
+		(at 341.63 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cb410ef-1c2c-4b97-a04f-546c9d38d140")
 	)
 	(junction
 		(at 123.19 251.46)
@@ -7353,12 +7615,6 @@
 		(uuid "95f9100c-6f2f-44f6-a1a0-6e5ef81229d0")
 	)
 	(junction
-		(at 311.15 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97cf6325-5ef1-44fb-b4c4-012a5592be8e")
-	)
-	(junction
 		(at 181.61 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7377,10 +7633,10 @@
 		(uuid "a7b82182-84d8-498b-9b3e-31276487d30c")
 	)
 	(junction
-		(at 331.47 100.33)
+		(at 308.61 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ac2f2e20-f9d6-4615-a42d-b65284b40756")
+		(uuid "aaaf4679-020e-45fb-a6f2-1f0451b095db")
 	)
 	(junction
 		(at 163.83 93.98)
@@ -7389,10 +7645,22 @@
 		(uuid "ae8f73cf-3481-4818-b331-16a5a1cdb71d")
 	)
 	(junction
-		(at 264.16 236.22)
+		(at 260.35 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b09834b5-d3ea-43de-9c4c-7bf055dc7413")
+	)
+	(junction
+		(at 368.3 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5d5cb9f-929a-4109-af41-a768a6ca0cd3")
+	)
+	(junction
+		(at 222.25 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7a03596-ef89-44d3-ab3a-42d39150bcab")
 	)
 	(junction
 		(at 63.5 107.95)
@@ -7401,13 +7669,7 @@
 		(uuid "b7b5ac59-9286-4916-9853-8999216555b3")
 	)
 	(junction
-		(at 331.47 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b95c40ea-2601-405c-b1c5-a8cd20b6bafc")
-	)
-	(junction
-		(at 99.06 181.61)
+		(at 104.14 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba224977-eb09-4377-bf0c-522f256e697a")
@@ -7431,10 +7693,28 @@
 		(uuid "c41c655d-349b-4f03-b983-9363a424491d")
 	)
 	(junction
+		(at 254 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c43c132c-f613-4749-bd60-a2cc6c743699")
+	)
+	(junction
 		(at 255.27 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c57c1dd6-e6bd-427d-af7e-847d53cb5729")
+	)
+	(junction
+		(at 228.6 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6341afd-dab5-4e7c-97e2-a7f597b472ef")
+	)
+	(junction
+		(at 350.52 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb6d3fcc-b5ac-4908-b60e-2fbd86d564ca")
 	)
 	(junction
 		(at 241.3 142.24)
@@ -7491,12 +7771,6 @@
 		(uuid "e11552ac-f315-4ae5-90fe-c85c436bf1c8")
 	)
 	(junction
-		(at 236.22 236.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e23109b0-97b5-4816-a579-26c59d5dae1a")
-	)
-	(junction
 		(at 91.44 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7533,6 +7807,12 @@
 		(uuid "eda3d261-6a5f-4f68-8aab-2f673d05231b")
 	)
 	(junction
+		(at 350.52 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edf51dae-53b2-4fc1-8aed-f6176460d65f")
+	)
+	(junction
 		(at 72.39 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7545,7 +7825,13 @@
 		(uuid "efa27fc8-9628-445a-b190-dbe295a45917")
 	)
 	(junction
-		(at 280.67 273.05)
+		(at 321.31 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2e6829c-f7d8-4d52-b43b-10df4ccf6e06")
+	)
+	(junction
+		(at 283.21 273.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f35ccde5-4df9-4578-8a50-467860c66519")
@@ -7587,8 +7873,8 @@
 		(uuid "fc96e76f-dfb7-49df-a994-6fe7b6696f72")
 	)
 	(no_connect
-		(at 90.17 50.8)
-		(uuid "21695c84-b098-480e-99a4-5971b693d02d")
+		(at 44.45 83.82)
+		(uuid "24495c23-0340-49a5-b3d7-1657abb62c5a")
 	)
 	(no_connect
 		(at 90.17 60.96)
@@ -7597,10 +7883,6 @@
 	(no_connect
 		(at 44.45 53.34)
 		(uuid "38e6f572-8ce7-4e4a-bc84-57ba6d054663")
-	)
-	(no_connect
-		(at 90.17 58.42)
-		(uuid "578865ef-9afd-4f49-bb86-1ab5a6cc2a70")
 	)
 	(no_connect
 		(at 58.42 35.56)
@@ -7619,6 +7901,10 @@
 		(uuid "ce7b97fb-8d4d-473c-a73a-9e46a694f49f")
 	)
 	(no_connect
+		(at 44.45 81.28)
+		(uuid "d2a50000-04e5-4910-bf57-ace92983eeec")
+	)
+	(no_connect
 		(at 90.17 88.9)
 		(uuid "e1f71817-301c-4d9a-926c-898a80369fa3")
 	)
@@ -7632,6 +7918,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 238.76) (xy 228.6 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004879fb-3e29-425e-882e-1e021546f453")
+	)
+	(wire
+		(pts
 			(xy 274.32 156.21) (xy 274.32 173.99)
 		)
 		(stroke
@@ -7639,6 +7935,16 @@
 			(type default)
 		)
 		(uuid "005229bd-3319-475a-8d5f-1162920588be")
+	)
+	(wire
+		(pts
+			(xy 90.17 53.34) (xy 101.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0074b1ca-d7e9-42fe-b595-1f5594c16b65")
 	)
 	(wire
 		(pts
@@ -7662,7 +7968,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 234.95) (xy 317.5 234.95)
+			(xy 287.02 226.06) (xy 290.83 226.06)
 		)
 		(stroke
 			(width 0)
@@ -7672,13 +7978,13 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 240.03) (xy 358.14 240.03)
+			(xy 290.83 226.06) (xy 320.04 226.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "046bc790-a6f3-40ee-bade-c848d3b365de")
+		(uuid "03f26024-d7e7-42fa-87ed-8d30b1d067cf")
 	)
 	(wire
 		(pts
@@ -7709,6 +8015,16 @@
 			(type default)
 		)
 		(uuid "0688e8c3-f4de-4d4c-a606-887c5f86321f")
+	)
+	(wire
+		(pts
+			(xy 317.5 243.84) (xy 317.5 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "069d0e71-e4e2-4e90-b78c-f70342f1e9a4")
 	)
 	(wire
 		(pts
@@ -7789,16 +8105,6 @@
 			(type default)
 		)
 		(uuid "08d0ff1c-a7fd-4a24-ab24-c1835453d01a")
-	)
-	(wire
-		(pts
-			(xy 350.52 237.49) (xy 358.14 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0973dd52-a990-460e-bbef-f8b3f567dc81")
 	)
 	(wire
 		(pts
@@ -7932,7 +8238,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 270.51) (xy 246.38 273.05)
+			(xy 248.92 270.51) (xy 248.92 273.05)
 		)
 		(stroke
 			(width 0)
@@ -7989,16 +8295,6 @@
 			(type default)
 		)
 		(uuid "15542bea-b7a5-49e8-afd6-4085b1bb9291")
-	)
-	(wire
-		(pts
-			(xy 33.02 76.2) (xy 44.45 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17676937-6f94-4d6a-bf1c-fa9d2bc19c41")
 	)
 	(wire
 		(pts
@@ -8112,7 +8408,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 184.15) (xy 62.23 184.15)
+			(xy 48.26 184.15) (xy 58.42 184.15)
 		)
 		(stroke
 			(width 0)
@@ -8162,6 +8458,26 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 242.57) (xy 359.41 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ebc38a4-28c6-49c2-a8fd-290e1e3c92e3")
+	)
+	(wire
+		(pts
+			(xy 368.3 233.68) (xy 370.84 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd8e91c-075f-45b1-a342-7f447eeb0828")
+	)
+	(wire
+		(pts
 			(xy 140.97 218.44) (xy 140.97 220.98)
 		)
 		(stroke
@@ -8179,6 +8495,16 @@
 			(type default)
 		)
 		(uuid "213af5ad-d8a8-4ae0-9bc4-fb7cef5a7983")
+	)
+	(wire
+		(pts
+			(xy 331.47 100.33) (xy 341.63 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2148a26c-0c95-4732-83ae-45f596eaaf0d")
 	)
 	(wire
 		(pts
@@ -8322,13 +8648,23 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 273.05) (xy 257.81 273.05)
+			(xy 248.92 273.05) (xy 260.35 273.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2b7345de-f7f3-4f97-a913-b3b16f640ccd")
+	)
+	(wire
+		(pts
+			(xy 359.41 242.57) (xy 368.3 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf77adc-b4e6-4cc3-a62c-fb1bb8c3d473")
 	)
 	(wire
 		(pts
@@ -8339,16 +8675,6 @@
 			(type default)
 		)
 		(uuid "2e1f700e-f76b-4c9d-8673-2ca816ede45b")
-	)
-	(wire
-		(pts
-			(xy 341.63 100.33) (xy 331.47 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e702bbc-3768-455e-92e8-4f766691e33a")
 	)
 	(wire
 		(pts
@@ -8382,6 +8708,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 242.57) (xy 308.61 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d92ce9-579b-41c2-a3e1-46853b417c1f")
+	)
+	(wire
+		(pts
 			(xy 127 264.16) (xy 127 270.51)
 		)
 		(stroke
@@ -8402,7 +8738,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 179.07) (xy 82.55 179.07)
+			(xy 299.72 228.6) (xy 299.72 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34badbdd-c606-4dcd-9367-b6969ecc3cf3")
+	)
+	(wire
+		(pts
+			(xy 81.28 179.07) (xy 87.63 179.07)
 		)
 		(stroke
 			(width 0)
@@ -8482,6 +8828,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 82.55) (xy 340.36 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac5c41b-423f-4337-9495-122fe7cc479a")
+	)
+	(wire
+		(pts
 			(xy 214.63 166.37) (xy 231.14 166.37)
 		)
 		(stroke
@@ -8532,7 +8888,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 238.76) (xy 264.16 240.03)
+			(xy 260.35 231.14) (xy 260.35 238.76)
 		)
 		(stroke
 			(width 0)
@@ -8592,7 +8948,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 270.51) (xy 257.81 273.05)
+			(xy 260.35 270.51) (xy 260.35 273.05)
 		)
 		(stroke
 			(width 0)
@@ -8702,6 +9058,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 231.14) (xy 320.04 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a7e7b4c-f13d-47d3-8140-db6042a24124")
+	)
+	(wire
+		(pts
 			(xy 293.37 87.63) (xy 331.47 87.63)
 		)
 		(stroke
@@ -8732,7 +9098,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 270.51) (xy 269.24 273.05)
+			(xy 271.78 270.51) (xy 271.78 273.05)
 		)
 		(stroke
 			(width 0)
@@ -8759,6 +9125,16 @@
 			(type default)
 		)
 		(uuid "4c62fede-bba6-4270-867f-7c9c6c3d1b20")
+	)
+	(wire
+		(pts
+			(xy 299.72 240.03) (xy 299.72 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd45e89-3a3b-477b-8db7-ae02e7ac3cbc")
 	)
 	(wire
 		(pts
@@ -8792,16 +9168,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 53.34) (xy 104.14 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e4bc341-83b0-47d6-b5fc-69f7d18e0263")
-	)
-	(wire
-		(pts
 			(xy 80.01 26.67) (xy 85.09 26.67)
 		)
 		(stroke
@@ -8822,7 +9188,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 181.61) (xy 99.06 181.61)
+			(xy 102.87 181.61) (xy 104.14 181.61)
 		)
 		(stroke
 			(width 0)
@@ -8832,23 +9198,13 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 270.51) (xy 280.67 273.05)
+			(xy 283.21 270.51) (xy 283.21 273.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "50e17ccd-de75-4a63-9a80-6ac4b8aa17b5")
-	)
-	(wire
-		(pts
-			(xy 33.02 78.74) (xy 44.45 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50ef0d13-468c-4142-a46f-b96f3b8c0de2")
 	)
 	(wire
 		(pts
@@ -8862,7 +9218,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 179.07) (xy 99.06 181.61)
+			(xy 341.63 242.57) (xy 350.52 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5122ac5a-bc08-47b8-a2cb-d4a41a65b20f")
+	)
+	(wire
+		(pts
+			(xy 104.14 179.07) (xy 104.14 181.61)
 		)
 		(stroke
 			(width 0)
@@ -8889,6 +9255,16 @@
 			(type default)
 		)
 		(uuid "52496920-1661-4071-b6f9-6efefc0b4632")
+	)
+	(wire
+		(pts
+			(xy 90.17 50.8) (xy 101.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526a4737-610a-45a1-b626-f2e91392309a")
 	)
 	(wire
 		(pts
@@ -8942,13 +9318,23 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 179.07) (xy 99.06 179.07)
+			(xy 102.87 179.07) (xy 104.14 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5672c8f3-7b03-41c9-ae21-95dc1d0ff65d")
+	)
+	(wire
+		(pts
+			(xy 290.83 240.03) (xy 290.83 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57088562-6bc6-4852-84ff-5d6464e68858")
 	)
 	(wire
 		(pts
@@ -8972,6 +9358,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 242.57) (xy 317.5 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57bf05b5-8933-4a13-a81a-44cc923f78ea")
+	)
+	(wire
+		(pts
 			(xy 255.27 153.67) (xy 255.27 160.02)
 		)
 		(stroke
@@ -8979,6 +9375,16 @@
 			(type default)
 		)
 		(uuid "583a4705-24ba-424b-8ffd-6bda94b15097")
+	)
+	(wire
+		(pts
+			(xy 368.3 242.57) (xy 368.3 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "585ced97-7cb5-495b-b7d9-3f88286c0e59")
 	)
 	(wire
 		(pts
@@ -9082,6 +9488,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 231.14) (xy 359.41 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60664d13-6872-49da-8f12-1f8844ff1338")
+	)
+	(wire
+		(pts
 			(xy 25.4 184.15) (xy 25.4 179.07)
 		)
 		(stroke
@@ -9089,6 +9505,16 @@
 			(type default)
 		)
 		(uuid "606b4880-a9fe-4b48-af65-39644a569d3a")
+	)
+	(wire
+		(pts
+			(xy 336.55 228.6) (xy 350.52 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6123ee64-e31c-44f2-b108-c1ecdb710887")
 	)
 	(wire
 		(pts
@@ -9192,6 +9618,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 78.74) (xy 44.45 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "678980e0-ffb5-4ebe-94dd-57ca9fb6b38a")
+	)
+	(wire
+		(pts
 			(xy 271.78 41.91) (xy 271.78 43.18)
 		)
 		(stroke
@@ -9212,7 +9648,17 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 234.95) (xy 236.22 236.22)
+			(xy 350.52 228.6) (xy 350.52 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68cbde6b-af14-47f9-b5f0-28101188b9b1")
+	)
+	(wire
+		(pts
+			(xy 228.6 227.33) (xy 228.6 228.6)
 		)
 		(stroke
 			(width 0)
@@ -9262,7 +9708,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 181.61) (xy 99.06 182.88)
+			(xy 104.14 181.61) (xy 104.14 182.88)
 		)
 		(stroke
 			(width 0)
@@ -9322,6 +9768,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 226.06) (xy 341.63 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d684c9-9880-45a8-af88-b15ac41218bf")
+	)
+	(wire
+		(pts
 			(xy 140.97 264.16) (xy 140.97 270.51)
 		)
 		(stroke
@@ -9339,6 +9795,16 @@
 			(type default)
 		)
 		(uuid "73a75003-edc8-4901-abeb-236895486f2f")
+	)
+	(wire
+		(pts
+			(xy 90.17 55.88) (xy 101.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ad6a44-4f71-4f0f-a630-23a4a2eb1e79")
 	)
 	(wire
 		(pts
@@ -9422,7 +9888,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 273.05) (xy 280.67 273.05)
+			(xy 271.78 273.05) (xy 283.21 273.05)
 		)
 		(stroke
 			(width 0)
@@ -9452,6 +9918,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 226.06) (xy 370.84 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781f68eb-6277-4165-92c7-acd9f82cbe76")
+	)
+	(wire
+		(pts
 			(xy 255.27 184.15) (xy 241.3 184.15)
 		)
 		(stroke
@@ -9462,7 +9938,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 234.95) (xy 264.16 236.22)
+			(xy 260.35 227.33) (xy 260.35 228.6)
 		)
 		(stroke
 			(width 0)
@@ -9522,7 +9998,17 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 236.22) (xy 236.22 236.22)
+			(xy 350.52 228.6) (xy 370.84 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a5af3aa-df66-4f7f-856a-8eed632290c0")
+	)
+	(wire
+		(pts
+			(xy 218.44 228.6) (xy 222.25 228.6)
 		)
 		(stroke
 			(width 0)
@@ -9542,13 +10028,23 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 273.05) (xy 269.24 273.05)
+			(xy 260.35 273.05) (xy 271.78 273.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7bc6e343-4bec-4f4b-bcfd-c49801811204")
+	)
+	(wire
+		(pts
+			(xy 359.41 240.03) (xy 359.41 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c985490-a385-45e0-9abc-2f3021e2b563")
 	)
 	(wire
 		(pts
@@ -9589,6 +10085,26 @@
 			(type default)
 		)
 		(uuid "7ecc586c-c379-4811-92f4-c0bba9f5578f")
+	)
+	(wire
+		(pts
+			(xy 341.63 240.03) (xy 341.63 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80638257-5fa1-4936-b7d4-bacf4e5c4c5e")
+	)
+	(wire
+		(pts
+			(xy 222.25 228.6) (xy 222.25 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "812f00f9-6206-4ef6-bc29-2c21ac444956")
 	)
 	(wire
 		(pts
@@ -9762,7 +10278,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 238.76) (xy 266.7 238.76)
+			(xy 260.35 231.14) (xy 262.89 231.14)
 		)
 		(stroke
 			(width 0)
@@ -9812,7 +10328,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 236.22) (xy 264.16 236.22)
+			(xy 250.19 228.6) (xy 254 228.6)
 		)
 		(stroke
 			(width 0)
@@ -9849,6 +10365,16 @@
 			(type default)
 		)
 		(uuid "8e9b1a0b-74bf-47df-a4b7-80e597dab948")
+	)
+	(wire
+		(pts
+			(xy 222.25 228.6) (xy 228.6 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90369e8b-fe5c-4195-b69a-f663bbb244c6")
 	)
 	(wire
 		(pts
@@ -9930,16 +10456,6 @@
 		)
 		(uuid "93afb61e-3f33-4512-8c39-58e90bf90a59")
 	)
-	(wire
-		(pts
-			(xy 331.47 87.63) (xy 339.09 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "967603cb-8963-4c97-b1a9-b245a0635c15")
-	)
 	(polyline
 		(pts
 			(xy 204.47 258.445) (xy 407.67 258.445)
@@ -9959,6 +10475,16 @@
 			(type default)
 		)
 		(uuid "974fed0c-3f5f-4744-9077-88279a4dad2c")
+	)
+	(wire
+		(pts
+			(xy 254 228.6) (xy 254 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981bc31e-30a7-477e-94bb-fb9b659dd7de")
 	)
 	(wire
 		(pts
@@ -10012,7 +10538,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 236.22) (xy 266.7 236.22)
+			(xy 260.35 228.6) (xy 262.89 228.6)
 		)
 		(stroke
 			(width 0)
@@ -10029,6 +10555,16 @@
 			(type default)
 		)
 		(uuid "99dad845-3087-416b-ab4b-e0f517c78eb7")
+	)
+	(wire
+		(pts
+			(xy 311.15 100.33) (xy 321.31 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e4631a-47f9-4810-a4a8-e14fac5146e5")
 	)
 	(wire
 		(pts
@@ -10049,6 +10585,16 @@
 			(type default)
 		)
 		(uuid "9a38fee9-821a-46f3-ae46-cba937504c5d")
+	)
+	(wire
+		(pts
+			(xy 222.25 238.76) (xy 228.6 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba71ed5-ef19-4ff6-b0b5-822dccd241e3")
 	)
 	(wire
 		(pts
@@ -10112,17 +10658,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 55.88) (xy 104.14 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ed36857-bb11-40ba-b677-c24415455c82")
-	)
-	(wire
-		(pts
-			(xy 280.67 273.05) (xy 280.67 274.32)
+			(xy 283.21 273.05) (xy 283.21 274.32)
 		)
 		(stroke
 			(width 0)
@@ -10152,6 +10688,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 231.14) (xy 359.41 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0dfa30b-cef5-491e-b4de-c443b1c548ee")
+	)
+	(wire
+		(pts
 			(xy 33.02 63.5) (xy 44.45 63.5)
 		)
 		(stroke
@@ -10169,6 +10715,26 @@
 			(type default)
 		)
 		(uuid "a1f07dc4-7e1b-4ef9-bf31-96cbd0edbf01")
+	)
+	(wire
+		(pts
+			(xy 350.52 240.03) (xy 350.52 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a25b45f7-74af-4fc3-b14a-c084a8674aa5")
+	)
+	(wire
+		(pts
+			(xy 308.61 231.14) (xy 308.61 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4540af3-b83f-4f66-8990-cee4eb1789b0")
 	)
 	(wire
 		(pts
@@ -10282,6 +10848,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 238.76) (xy 260.35 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee1e1e9-25ac-473d-8ca4-f764441c12ed")
+	)
+	(wire
+		(pts
 			(xy 29.21 184.15) (xy 25.4 184.15)
 		)
 		(stroke
@@ -10342,6 +10918,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 240.03) (xy 308.61 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ed57bb-4d11-4f3e-8887-299a29a4cc81")
+	)
+	(wire
+		(pts
 			(xy 92.71 35.56) (xy 92.71 36.83)
 		)
 		(stroke
@@ -10362,16 +10948,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 82.55) (xy 340.36 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3e1201e-01d7-4afb-98bb-185e69ab577f")
-	)
-	(wire
-		(pts
 			(xy 353.06 175.26) (xy 353.06 176.53)
 		)
 		(stroke
@@ -10379,6 +10955,16 @@
 			(type default)
 		)
 		(uuid "b461dec4-b269-4220-a465-1fe883827d4d")
+	)
+	(wire
+		(pts
+			(xy 317.5 233.68) (xy 320.04 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57b9976-b345-42c5-9b17-9c4f2f0a69ff")
 	)
 	(wire
 		(pts
@@ -10422,6 +11008,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 87.63) (xy 339.09 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91bd835-b356-4784-9c43-c06f7147a311")
+	)
+	(wire
+		(pts
 			(xy 118.11 231.14) (xy 127 231.14)
 		)
 		(stroke
@@ -10442,13 +11038,23 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 236.22) (xy 238.76 236.22)
+			(xy 228.6 228.6) (xy 231.14 228.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b99ea326-532b-482e-9872-d0b76aaf92d6")
+	)
+	(wire
+		(pts
+			(xy 299.72 228.6) (xy 320.04 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9aee18b-04a7-4ed3-8885-ec7acc7c3deb")
 	)
 	(wire
 		(pts
@@ -10522,6 +11128,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 242.57) (xy 299.72 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be00517e-68ae-4645-a7d7-d6f9b07ef36f")
+	)
+	(wire
+		(pts
 			(xy 33.02 86.36) (xy 44.45 86.36)
 		)
 		(stroke
@@ -10582,7 +11198,17 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 238.76) (xy 238.76 238.76)
+			(xy 308.61 242.57) (xy 317.5 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6c37ed0-584f-48f9-afb4-4493fd67e5f9")
+	)
+	(wire
+		(pts
+			(xy 228.6 231.14) (xy 231.14 231.14)
 		)
 		(stroke
 			(width 0)
@@ -10642,6 +11268,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 228.6) (xy 260.35 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb47741e-c8e2-4b22-a254-d248168925bd")
+	)
+	(wire
+		(pts
 			(xy 270.51 41.91) (xy 271.78 41.91)
 		)
 		(stroke
@@ -10672,7 +11308,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 181.61) (xy 82.55 181.61)
+			(xy 81.28 181.61) (xy 87.63 181.61)
 		)
 		(stroke
 			(width 0)
@@ -10772,16 +11408,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 81.28) (xy 44.45 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c97e9a-b627-4674-af8b-c59c3739bb97")
-	)
-	(wire
-		(pts
 			(xy 124.46 128.27) (xy 124.46 129.54)
 		)
 		(stroke
@@ -10862,16 +11488,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 234.95) (xy 358.14 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6ae0c4b-a293-474c-a153-c21709cc5675")
-	)
-	(wire
-		(pts
 			(xy 62.23 35.56) (xy 62.23 26.67)
 		)
 		(stroke
@@ -10879,6 +11495,16 @@
 			(type default)
 		)
 		(uuid "d6b4018e-1306-4bb3-9978-7ac94f959f04")
+	)
+	(wire
+		(pts
+			(xy 33.02 76.2) (xy 44.45 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d70e0596-0538-4d94-8ffc-f67e6e06d150")
 	)
 	(wire
 		(pts
@@ -10892,7 +11518,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 237.49) (xy 317.5 237.49)
+			(xy 287.02 228.6) (xy 299.72 228.6)
 		)
 		(stroke
 			(width 0)
@@ -10959,6 +11585,16 @@
 			(type default)
 		)
 		(uuid "dce1fe0d-f242-4f90-bb89-1e2b2b4955c2")
+	)
+	(wire
+		(pts
+			(xy 90.17 58.42) (xy 101.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd22c891-cb42-499b-9f29-f8c475f0a92b")
 	)
 	(wire
 		(pts
@@ -11042,13 +11678,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 83.82) (xy 44.45 83.82)
+			(xy 254 238.76) (xy 260.35 238.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e126ac1e-9e87-4f29-b735-e73fad93bc0c")
+		(uuid "e19c49fd-e16b-4065-ab11-c60486b909b4")
 	)
 	(wire
 		(pts
@@ -11099,6 +11735,16 @@
 			(type default)
 		)
 		(uuid "e31b86e4-8f38-4f3f-acd1-ee70e2c7ebe4")
+	)
+	(wire
+		(pts
+			(xy 254 238.76) (xy 254 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e33b4ae9-af2e-46af-a118-73b82b2c9f87")
 	)
 	(wire
 		(pts
@@ -11182,6 +11828,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 237.49) (xy 222.25 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e647d1d7-57a1-4d59-9b19-fc0e54eec14e")
+	)
+	(wire
+		(pts
 			(xy 163.83 69.85) (xy 163.83 72.39)
 		)
 		(stroke
@@ -11192,7 +11848,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 240.03) (xy 317.5 240.03)
+			(xy 287.02 231.14) (xy 308.61 231.14)
 		)
 		(stroke
 			(width 0)
@@ -11242,6 +11898,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 226.06) (xy 341.63 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee87f026-2d90-4e4c-a333-2922d955773a")
+	)
+	(wire
+		(pts
 			(xy 123.19 128.27) (xy 124.46 128.27)
 		)
 		(stroke
@@ -11269,6 +11935,16 @@
 			(type default)
 		)
 		(uuid "ef654312-bd48-4cc0-b287-4bb42b2a8085")
+	)
+	(wire
+		(pts
+			(xy 359.41 231.14) (xy 370.84 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efcac4f4-9d56-4887-b937-0624beb0c301")
 	)
 	(wire
 		(pts
@@ -11312,6 +11988,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 226.06) (xy 290.83 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5da16fb-e25d-456c-a7d9-40e590ba3993")
+	)
+	(wire
+		(pts
 			(xy 55.88 264.16) (xy 55.88 270.51)
 		)
 		(stroke
@@ -11332,7 +12018,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 179.07) (xy 62.23 179.07)
+			(xy 368.3 243.84) (xy 368.3 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f95a5c02-6592-4247-a3fa-89dd4c457692")
+	)
+	(wire
+		(pts
+			(xy 48.26 179.07) (xy 58.42 179.07)
 		)
 		(stroke
 			(width 0)
@@ -11352,16 +12048,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 100.33) (xy 321.31 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa16f359-d817-4c23-b1c8-795c3235fc63")
-	)
-	(wire
-		(pts
 			(xy 231.14 160.02) (xy 226.06 160.02)
 		)
 		(stroke
@@ -11372,7 +12058,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 238.76) (xy 236.22 240.03)
+			(xy 228.6 231.14) (xy 228.6 238.76)
 		)
 		(stroke
 			(width 0)
@@ -11430,18 +12116,8 @@
 		)
 		(uuid "ffe39b97-6fde-4d8b-9d98-9ee6cf865345")
 	)
-	(label "485_1_RX"
-		(at 101.6 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "018f0b21-00d5-4db7-85a7-56129f7e297a")
-	)
 	(label "IN1"
-		(at 309.88 234.95 0)
+		(at 287.02 231.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11450,35 +12126,15 @@
 		)
 		(uuid "02003ec7-e8a0-4af5-b9a8-726ff9b0bcf6")
 	)
-	(label "485_2_RX"
-		(at 214.63 156.21 0)
+	(label "DIP2"
+		(at 33.02 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "08834fd8-af89-401b-a4d0-5979b160dbc4")
-	)
-	(label "485_1_RX"
-		(at 303.53 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "11cc6e23-4943-4e9d-ad12-95ca6f2ce04f")
-	)
-	(label "OUT1"
-		(at 350.52 234.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "12f4a136-f58b-4ca9-b652-c83a3350ff51")
+		(uuid "0c2df4ba-c762-421b-8242-f9d4a0158de6")
 	)
 	(label "232_2_RX"
 		(at 241.3 91.44 0)
@@ -11490,26 +12146,6 @@
 		)
 		(uuid "15d3c2d4-76b0-463d-8d11-95b9b5723967")
 	)
-	(label "OUT1"
-		(at 33.02 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1943353b-b052-4947-b235-a9aeb71634bd")
-	)
-	(label "DIP1"
-		(at 101.6 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1bb927eb-2c1b-4502-ad64-73ba5ad30f2d")
-	)
 	(label "OSC_IN"
 		(at 179.07 62.23 180)
 		(effects
@@ -11520,18 +12156,38 @@
 		)
 		(uuid "1f8c0ddd-3c0a-4765-9a19-74b0fd53c4d1")
 	)
-	(label "IN1"
-		(at 33.02 83.82 0)
+	(label "485_1_TX"
+		(at 101.6 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "20004de9-b871-455f-ac7c-26702c87ad73")
+	)
+	(label "~{LED_ERR}"
+		(at 33.02 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "261830ce-ca01-4bbc-aa82-e57baeaa7483")
+		(uuid "209ff81f-0a2c-48f5-9039-420af8e193c5")
 	)
 	(label "ADC_IN1"
-		(at 227.33 236.22 0)
+		(at 33.02 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "226f8672-1d1d-49cb-8b79-c11ebc360dd5")
+	)
+	(label "ADC_IN1"
+		(at 218.44 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11541,7 +12197,7 @@
 		(uuid "271a0828-2b16-4a35-a847-2232ee48c88f")
 	)
 	(label "ADC_IN0"
-		(at 254 236.22 0)
+		(at 250.19 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11550,25 +12206,35 @@
 		)
 		(uuid "273de323-70a9-44ef-9698-af27a3b0b9a1")
 	)
-	(label "485_2_TX"
-		(at 33.02 71.12 0)
+	(label "OUT2"
+		(at 336.55 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2f98b01e-6916-45e1-b8f5-72366dabb190")
+		(uuid "3689be73-43a2-4fbf-a6d1-076f42d34329")
 	)
-	(label "ADC_IN1"
-		(at 33.02 68.58 0)
+	(label "IN3"
+		(at 101.6 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3bfc586f-67e8-4ad3-ac77-3006cf7774f8")
+	)
+	(label "OUT1"
+		(at 336.55 231.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "37fb5b87-de1e-4cd2-a9a5-7931d6bd70fd")
+		(uuid "3f62911d-0364-4f0b-ae52-d58ea640527e")
 	)
 	(label "SWDIO"
 		(at 129.54 123.19 180)
@@ -11590,56 +12256,6 @@
 		)
 		(uuid "4416da80-4366-4208-bd35-b35df760315a")
 	)
-	(label "TTL_RX"
-		(at 101.6 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4505600d-2218-401c-ae13-2ec51c58b1e2")
-	)
-	(label "232_1_RX"
-		(at 33.02 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "455837a6-8ae0-4e61-be3a-aac4b86e41d6")
-	)
-	(label "~{LED_STA_RUN}"
-		(at 104.14 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4836d891-d25a-4f5f-888a-728edb5b482b")
-	)
-	(label "OUT2"
-		(at 33.02 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "49af1268-4c8f-4988-a026-94812b5986f1")
-	)
-	(label "OUT3"
-		(at 350.52 240.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4cbe81a0-1ed2-4408-9c0f-8603218040d7")
-	)
 	(label "232_1_TX"
 		(at 241.3 76.2 0)
 		(effects
@@ -11660,15 +12276,35 @@
 		)
 		(uuid "4e81091c-d162-45e5-ac31-6a5a27d48644")
 	)
-	(label "DIP2"
-		(at 101.6 45.72 180)
+	(label "485_2_RX"
+		(at 303.53 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c30ece0-88fb-4d0f-a5a7-59a9a9621d99")
+	)
+	(label "OUT2"
+		(at 101.6 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "56751290-8f5b-4ba3-b52d-cfacfb536f9f")
+		(uuid "63cb6a13-5bc5-4dcc-b788-4fe20cfa760e")
+	)
+	(label "TTL_TX"
+		(at 101.6 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "69c2f8cd-2b4c-42e7-89af-d556a7e0de31")
 	)
 	(label "SWDIO"
 		(at 101.6 71.12 180)
@@ -11691,7 +12327,7 @@
 		(uuid "6ebe8bc2-979b-4c7d-a146-c8ef3bd0319b")
 	)
 	(label "IN2"
-		(at 309.88 237.49 0)
+		(at 287.02 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11699,16 +12335,6 @@
 			(justify left bottom)
 		)
 		(uuid "73e8b951-caef-47ac-b327-062c57b77ba7")
-	)
-	(label "DIP2"
-		(at 76.2 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "74c88eb8-cf14-48ca-aecb-bb63b3ba5d5b")
 	)
 	(label "OSC32_IN"
 		(at 184.15 83.82 180)
@@ -11720,18 +12346,38 @@
 		)
 		(uuid "7609ce89-b6ae-4549-89bf-6cbd54163f55")
 	)
-	(label "485_1_TX"
-		(at 101.6 81.28 180)
+	(label "485_2_TX"
+		(at 303.53 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "79f6927d-2321-449e-b062-91f0380cc6d4")
+		(uuid "7b0d572b-3515-4201-a24f-7a2cf4802417")
 	)
-	(label "~{LED_STA_RUN}"
-		(at 62.23 184.15 180)
+	(label "DIP1"
+		(at 33.02 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bdde621-c2d3-4716-978c-4938cbb62e1e")
+	)
+	(label "485_1_RX"
+		(at 214.63 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c015b2f-b263-4103-a795-b51289bc937b")
+	)
+	(label "~{LED_RUN}"
+		(at 58.42 184.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11739,6 +12385,16 @@
 			(justify right bottom)
 		)
 		(uuid "7d925c28-1f7f-4773-892f-e3637ca56933")
+	)
+	(label "232_2_RX"
+		(at 33.02 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82cfdfda-0319-4bb4-b325-5bfd8a5239d3")
 	)
 	(label "232_1_RX"
 		(at 241.3 86.36 0)
@@ -11749,6 +12405,16 @@
 			(justify left bottom)
 		)
 		(uuid "86e7ffc9-de8d-4f0b-b528-17b3931fd0bd")
+	)
+	(label "DIP2"
+		(at 81.28 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88384217-260f-4226-9405-3f2796b98487")
 	)
 	(label "OSC_IN"
 		(at 33.02 60.96 0)
@@ -11770,25 +12436,45 @@
 		)
 		(uuid "90dc1022-eeda-48ba-a18e-a7e9aef0afad")
 	)
-	(label "ADC_IN0"
-		(at 33.02 66.04 0)
+	(label "OUT1"
+		(at 101.6 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "91c030a7-4ea9-4d22-a008-3ce099f57cde")
+		(uuid "91c49c57-dd57-47fb-b0d7-59bcae733bae")
 	)
-	(label "IN2"
-		(at 33.02 86.36 0)
+	(label "OUT3"
+		(at 101.6 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9a7e909a-08cb-43b0-9ea4-399fb95f1a41")
+	)
+	(label "IN1"
+		(at 101.6 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a52a39bc-f1ef-4f53-b435-b25ea01b9655")
+	)
+	(label "DIP1"
+		(at 81.28 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9cfec465-7993-4dcf-b71b-ecbdba753a7a")
+		(uuid "aa8969e5-f15c-4b20-93a0-26fff7609e63")
 	)
 	(label "OSC32_OUT"
 		(at 33.02 58.42 0)
@@ -11830,16 +12516,6 @@
 		)
 		(uuid "af3ed9b8-fafa-424f-81b9-169155fcfc70")
 	)
-	(label "~{LED_STA_ERR}"
-		(at 104.14 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "afdc1564-934a-4e16-8278-49aaf1094c17")
-	)
 	(label "TTL_RX"
 		(at 158.75 166.37 0)
 		(effects
@@ -11850,35 +12526,15 @@
 		)
 		(uuid "b296dcea-5a7e-4d52-a3b4-c8be24d00c8f")
 	)
-	(label "232_1_TX"
-		(at 33.02 93.98 0)
+	(label "~{LED_RUN}"
+		(at 33.02 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b52e2b45-139a-4713-99a0-e1a35857d8c0")
-	)
-	(label "232_2_TX"
-		(at 101.6 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b5b30a4a-4929-43a8-94ee-27780507741c")
-	)
-	(label "OUT2"
-		(at 350.52 237.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b91f93e5-2cdd-4e41-947b-599648c908aa")
+		(uuid "c06af061-faea-4fae-9d46-20471d3dd431")
 	)
 	(label "SWCLK"
 		(at 129.54 125.73 180)
@@ -11890,18 +12546,8 @@
 		)
 		(uuid "c14c47d9-3118-484f-83c6-077081cd7a8d")
 	)
-	(label "232_2_RX"
-		(at 101.6 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c49227b1-40b2-420c-9df2-aa76adaf9b8c")
-	)
 	(label "IN3"
-		(at 309.88 240.03 0)
+		(at 287.02 226.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11919,6 +12565,26 @@
 			(justify right bottom)
 		)
 		(uuid "c9677688-7a0b-45c6-a298-1c8862c92f51")
+	)
+	(label "IN2"
+		(at 101.6 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb4c7a21-d044-4557-ae0c-210275f6d833")
+	)
+	(label "232_1_TX"
+		(at 33.02 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb4c8bc4-8f5d-47d6-bb37-e7bf2f5cf413")
 	)
 	(label "BOOT1"
 		(at 33.02 91.44 0)
@@ -11940,16 +12606,6 @@
 		)
 		(uuid "cd71e1d0-17e8-4f4e-b643-1df138f3f6de")
 	)
-	(label "DIP1"
-		(at 76.2 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce161931-22ef-4dc5-b0cc-bf0548b96fee")
-	)
 	(label "SWCLK"
 		(at 101.6 66.04 180)
 		(effects
@@ -11970,27 +12626,47 @@
 		)
 		(uuid "d7e4b54e-4b8d-4154-82aa-5527798a4b6e")
 	)
-	(label "OUT3"
-		(at 33.02 81.28 0)
+	(label "485_2_TX"
+		(at 101.6 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db1f33e2-cb9c-4196-aaac-7ad65526177f")
+	)
+	(label "232_2_TX"
+		(at 33.02 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e7f6d3d6-ce0c-44dc-8fa7-cf423f444d60")
+		(uuid "dfc6b4ba-7e92-4b39-96cc-8c9423666059")
+	)
+	(label "485_2_RX"
+		(at 101.6 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e16d580d-3442-49d5-a326-f332f643f59f")
+	)
+	(label "ADC_IN0"
+		(at 33.02 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e349c1bd-995b-4755-ad01-3ef92b0f2e88")
 	)
 	(label "485_1_TX"
-		(at 303.53 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e91d53b0-ab71-4dfa-82db-014d0e4bea6b")
-	)
-	(label "485_2_TX"
 		(at 214.63 166.37 0)
 		(effects
 			(font
@@ -11998,29 +12674,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e9a5bc3b-8a98-46f9-86c2-87c5ce53996e")
+		(uuid "e923a31d-021b-41d6-b6d6-b7caa45c4f8c")
 	)
-	(label "TTL_TX"
-		(at 101.6 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f01f9176-cda9-4c12-9b54-770e24125839")
-	)
-	(label "IN3"
-		(at 33.02 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f1d167f9-8d73-42e1-ada3-062b8ece5785")
-	)
-	(label "485_2_RX"
+	(label "232_1_RX"
 		(at 33.02 73.66 0)
 		(effects
 			(font
@@ -12028,7 +12684,17 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f2f40984-088a-4659-9afa-8d1393ea7d29")
+		(uuid "eba0231f-3a6b-4a35-b759-e28732518a86")
+	)
+	(label "485_1_RX"
+		(at 101.6 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ebfbdc33-cead-4988-9449-9564b7dbbba6")
 	)
 	(label "OSC32_OUT"
 		(at 184.15 93.98 180)
@@ -12040,8 +12706,18 @@
 		)
 		(uuid "f3fc6e38-75c7-4563-8a9a-1bfcfb9be546")
 	)
-	(label "~{LED_STA_ERR}"
-		(at 62.23 179.07 180)
+	(label "TTL_RX"
+		(at 101.6 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f56f0f6c-167d-48bb-9a04-1612cdcbee1c")
+	)
+	(label "~{LED_ERR}"
+		(at 58.42 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12049,6 +12725,16 @@
 			(justify right bottom)
 		)
 		(uuid "f9b1634d-aa05-4fd3-ae67-2a6422337c66")
+	)
+	(label "OUT3"
+		(at 336.55 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe69216f-1d00-4024-a6fd-cd74b002ca62")
 	)
 	(symbol
 		(lib_id "wyh:MAX13487EESA+T")
@@ -12083,7 +12769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SSOP-8_3.95x5.21x3.27mm_P1.27mm"
 			(at 241.3 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -12304,6 +12990,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ5.0CA")
+		(at 299.72 236.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "07dcfb40-424f-48a3-8cb4-1257d24cfa08")
+		(property "Reference" "D13"
+			(at 302.26 234.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ3.3CA"
+			(at 297.18 231.902 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+			(at 304.8 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 299.72 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 299.72 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c023eb45-23d3-4ac3-bc28-b32eb4e9444b")
+		)
+		(pin "1"
+			(uuid "0189e3af-c7be-432a-a1bb-1bcdae8dace4")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 167.64 38.1 0)
 		(unit 1)
@@ -12464,6 +13231,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ5.0CA")
+		(at 254 233.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "100baf18-7fdd-40cc-893a-15a314818945")
+		(property "Reference" "D11"
+			(at 255.27 232.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ3.3CA"
+			(at 251.46 229.362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+			(at 259.08 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 254 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 254 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2eec0d27-6936-42cc-9ade-9d71a8e84732")
+		)
+		(pin "1"
+			(uuid "f224195a-0410-444b-b048-b13e1499716d")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 140.97 260.35 0)
 		(unit 1)
@@ -12539,6 +13387,87 @@
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ5.0CA")
+		(at 290.83 236.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "174d1d77-de94-4dd8-aa4d-cd5467034829")
+		(property "Reference" "D12"
+			(at 293.37 234.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ3.3CA"
+			(at 288.29 231.902 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+			(at 295.91 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 290.83 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 290.83 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6c7d47ba-7d1e-44af-b7b1-680fa7ab1c62")
+		)
+		(pin "1"
+			(uuid "81d0def6-4607-4b03-ba3a-ac444caf8729")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -12706,89 +13635,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 321.31 92.71 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1c435ef7-18cb-4e8e-b7a3-8362214e77c6")
-		(property "Reference" "D3"
-			(at 322.834 93.726 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SGSD15C"
-			(at 321.564 96.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 321.31 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/5783139.html?fromZone=s_s__%2522GSD15C%2522&spm=sc.gbn.xh1.zy.n___sc.it.ss&lcsc_vid=RVNYAVJTRFhdBVBSTgRdBVdfTlVdAVMHRwMPVVxXEwAxVlNRQVFaX1dQQ1RXVjsOAxUeFF5JWAIASQYPGQZABAsLWA%3D%3D"
-			(at 321.31 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 321.31 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4ff658bd-486d-4113-b0b2-1b4f467388f3")
-		)
-		(pin "1"
-			(uuid "88ac981a-9573-454e-aadb-ef7882609f45")
-		)
-		(instances
-			(project "nova_sensors"
-				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
-		(at 236.22 227.33 0)
+		(at 228.6 219.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12798,7 +13646,7 @@
 		(dnp no)
 		(uuid "1d2f0d94-0e4d-4917-97dc-59a0529847be")
 		(property "Reference" "#PWR030"
-			(at 236.22 231.14 0)
+			(at 228.6 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12809,7 +13657,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 235.712 223.774 0)
+			(at 228.092 216.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12819,7 +13667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 227.33 0)
+			(at 228.6 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12830,7 +13678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 227.33 0)
+			(at 228.6 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12841,7 +13689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 236.22 227.33 0)
+			(at 228.6 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12947,7 +13795,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 264.16 227.33 0)
+		(at 260.35 219.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12957,7 +13805,7 @@
 		(dnp no)
 		(uuid "1e193661-5ba9-49e9-a7d4-0277b033ddae")
 		(property "Reference" "#PWR031"
-			(at 264.16 231.14 0)
+			(at 260.35 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12968,7 +13816,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 263.652 223.774 0)
+			(at 259.842 216.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12978,7 +13826,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 227.33 0)
+			(at 260.35 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12989,7 +13837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 227.33 0)
+			(at 260.35 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13000,7 +13848,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 264.16 227.33 0)
+			(at 260.35 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13110,7 +13958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2397bed7-5bb4-480d-8bd8-963f5f99d76b")
-		(property "Reference" "J1"
+		(property "Reference" "J6"
 			(at 176.276 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13181,98 +14029,6 @@
 		)
 		(pin "2"
 			(uuid "2190d75b-01e3-4d97-bb01-a044fa2edbd5")
-		)
-		(instances
-			(project "nova_sensors"
-				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 373.38 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "26115bf0-a02a-4157-9829-1085566d095d")
-		(property "Reference" "J6"
-			(at 374.396 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 374.65 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
-			(at 373.38 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 373.38 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "定义" "RS485_1"
-			(at 378.46 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fbf3ebb9-1c93-4700-8631-c54f947b43b8")
-		)
-		(pin "2"
-			(uuid "7d24adc8-5654-4a64-8f71-8e89f35d4465")
 		)
 		(instances
 			(project "nova_sensors"
@@ -13768,19 +14524,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 246.38 267.97 0)
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 325.12 228.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34487c3f-873e-41c6-ba7d-23fa467a963f")
-		(property "Reference" "H1"
-			(at 248.92 265.4299 0)
+		(uuid "3382c3a1-1df3-4935-a369-7b3b0e50fb7f")
+		(property "Reference" "J10"
+			(at 326.39 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13790,8 +14545,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 248.92 267.9699 0)
+		(property "Value" "Conn_01x04_Socket"
+			(at 326.39 231.1399 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13802,8 +14557,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 246.38 267.97 0)
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal"
+			(at 325.12 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13814,7 +14569,95 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 267.97 0)
+			(at 325.12 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IN"
+			(at 327.66 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "3a69d9a3-e992-4afe-b75b-016ffbcf74a4")
+		)
+		(pin "1"
+			(uuid "164a2662-2c44-449f-84f0-4104199d28d7")
+		)
+		(pin "3"
+			(uuid "6130f8d8-04d3-4811-bef4-f8a00ef44337")
+		)
+		(pin "2"
+			(uuid "26380eee-8a4f-4f5d-9457-2f5b13e957f5")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 248.92 267.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34487c3f-873e-41c6-ba7d-23fa467a963f")
+		(property "Reference" "H1"
+			(at 251.46 265.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 251.46 267.9699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 248.92 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13825,7 +14668,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 246.38 267.97 0)
+			(at 248.92 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14006,8 +14849,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ8.0CA")
+		(at 311.15 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3bb2d6bd-4eb3-4b3e-812e-29a51c61c350")
+		(property "Reference" "D2"
+			(at 312.928 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ8.0CA"
+			(at 308.356 88.392 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 316.23 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 311.15 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 8.0Vr, SMA(DO-214AC)"
+			(at 311.15 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5f236473-4f44-4c65-b4eb-b3909567fe3e")
+		)
+		(pin "1"
+			(uuid "fe7e9ee4-9fd1-4e64-bfd4-2e49f578a2e4")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 264.16 240.03 0)
+		(at 260.35 240.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14017,7 +14941,7 @@
 		(dnp no)
 		(uuid "3fa5354b-2aaa-4b3d-beb1-0c3ecc02e5c4")
 		(property "Reference" "#PWR035"
-			(at 264.16 246.38 0)
+			(at 260.35 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14028,7 +14952,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 264.16 243.84 0)
+			(at 260.35 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14038,7 +14962,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 240.03 0)
+			(at 260.35 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14049,7 +14973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 240.03 0)
+			(at 260.35 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14060,7 +14984,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 240.03 0)
+			(at 260.35 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14255,7 +15179,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41697d24-b059-4a3b-8eb0-9c4297ce11a3")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 345.44 180.594 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14319,37 +15243,25 @@
 		(instances
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 257.81 267.97 0)
+		(lib_id "power:GND")
+		(at 317.5 243.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "438a4ecd-d3dc-4379-95d8-da9f9b2e829c")
-		(property "Reference" "H2"
-			(at 260.35 265.4299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 260.35 267.9699 0)
+		(uuid "4181ea55-493f-47db-887e-084d23483d30")
+		(property "Reference" "#PWR036"
+			(at 317.5 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14357,11 +15269,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 257.81 267.97 0)
+		(property "Value" "GND"
+			(at 317.5 247.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 317.5 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14372,7 +15293,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 267.97 0)
+			(at 317.5 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 317.5 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "948b89f5-be0f-4019-89ab-006d56e83d07")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 260.35 267.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "438a4ecd-d3dc-4379-95d8-da9f9b2e829c")
+		(property "Reference" "H2"
+			(at 262.89 265.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 262.89 267.9699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
+			(at 260.35 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14383,7 +15384,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 257.81 267.97 0)
+			(at 260.35 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14438,7 +15439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SSOP-8_3.95x5.21x3.27mm_P1.27mm"
 			(at 330.2 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -14660,6 +15661,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 375.92 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "475387c3-791a-49d6-a79b-814c3bb9716e")
+		(property "Reference" "J11"
+			(at 377.19 228.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 377.19 231.1399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal"
+			(at 375.92 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "OUT"
+			(at 378.714 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "f4ce2dc0-5963-4a8e-998d-eea3cab09781")
+		)
+		(pin "1"
+			(uuid "57991796-72c7-4ea8-ac1a-3dd54192993b")
+		)
+		(pin "3"
+			(uuid "a134220c-bf22-4da4-8d42-6cf1dd863e0f")
+		)
+		(pin "2"
+			(uuid "0421609e-b6ec-4d67-aada-e6a90f49324e")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 379.73 187.96 0)
 		(unit 1)
@@ -14737,9 +15825,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 43.18 219.71 0)
-		(mirror y)
+		(lib_id "Diode:SMAJ5.0CA")
+		(at 308.61 236.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14747,43 +15834,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4ad5016e-c7ff-4e00-91af-f89ff88149bd")
-		(property "Reference" "J7"
-			(at 41.91 219.7099 0)
+		(uuid "479c6405-b7a6-431e-8437-4da97067884a")
+		(property "Reference" "D14"
+			(at 311.15 234.9499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 41.91 222.2499 0)
-			(hide yes)
+		(property "Value" "SMAJ3.3CA"
+			(at 306.07 231.902 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 43.18 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 219.71 0)
+		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+			(at 313.69 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14793,8 +15868,9 @@
 				)
 			)
 		)
-		(property "Description" "PWR"
-			(at 40.64 222.25 0)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 308.61 236.22 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14803,16 +15879,27 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "74e6df30-c876-440e-ab79-070177644c60")
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 308.61 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "b4b001a6-021a-4e0c-9c83-e98984ea68fe")
+			(uuid "d517e039-3919-4951-aa02-b50aa4d7ca02")
+		)
+		(pin "1"
+			(uuid "4d90c937-2700-446b-91fa-0d22ccbe32ee")
 		)
 		(instances
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "J7")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -15135,92 +16222,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 363.22 237.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4e53ca2a-a818-4b4f-85f3-c4e87951ebe2")
-		(property "Reference" "J11"
-			(at 364.49 236.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 364.49 238.7599 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal"
-			(at 363.22 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 363.22 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "OUT"
-			(at 365.76 238.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb40e5aa-9715-4768-9a90-30d528536d0c")
-		)
-		(pin "3"
-			(uuid "f30441c2-a70a-465b-a011-7dd55a244428")
-		)
-		(pin "2"
-			(uuid "f01beccd-53fb-4790-a407-f750ce9f59c2")
-		)
-		(instances
-			(project "nova_sensors"
-				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 280.67 267.97 0)
+		(at 283.21 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15231,7 +16234,7 @@
 		(fields_autoplaced yes)
 		(uuid "5165552d-ab7e-4744-ab1e-d3001eef0e94")
 		(property "Reference" "H4"
-			(at 283.21 265.4299 0)
+			(at 285.75 265.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15242,7 +16245,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 283.21 267.9699 0)
+			(at 285.75 267.9699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15253,8 +16256,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 280.67 267.97 0)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
+			(at 283.21 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15265,7 +16268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 267.97 0)
+			(at 283.21 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15276,7 +16279,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 280.67 267.97 0)
+			(at 283.21 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15299,181 +16302,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 300.99 92.71 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "53e3c09c-5f1c-4a09-a4d6-3582a93ba5a6")
-		(property "Reference" "D1"
-			(at 302.514 93.726 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SGSD15C"
-			(at 301.244 96.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 300.99 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/5783139.html?fromZone=s_s__%2522GSD15C%2522&spm=sc.gbn.xh1.zy.n___sc.it.ss&lcsc_vid=RVNYAVJTRFhdBVBSTgRdBVdfTlVdAVMHRwMPVVxXEwAxVlNRQVFaX1dQQ1RXVjsOAxUeFF5JWAIASQYPGQZABAsLWA%3D%3D"
-			(at 300.99 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 300.99 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "42e10ebc-d02d-409a-bb39-fd2b45c2b394")
-		)
-		(pin "1"
-			(uuid "17735176-5c8d-4aac-8a1f-0d0d4ecf0382")
-		)
-		(instances
-			(project "nova_sensors"
-				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 284.48 153.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "54b14f4b-d9b9-434c-b05c-65b1076237c6")
-		(property "Reference" "J5"
-			(at 285.496 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 285.75 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
-			(at 284.48 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 284.48 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 284.48 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "定义" "RS485_2"
-			(at 289.56 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f81dcf6-ae9f-4d1a-abb5-e3260d118d60")
-		)
-		(pin "2"
-			(uuid "35bb43a1-b51b-4ba8-9b0e-781924f89994")
-		)
-		(instances
-			(project "nova_sensors"
-				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 264.16 231.14 0)
+		(at 260.35 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15483,7 +16313,7 @@
 		(dnp no)
 		(uuid "56434b42-98db-4546-96fa-6754b93ed253")
 		(property "Reference" "R15"
-			(at 265.176 229.616 0)
+			(at 261.366 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15494,7 +16324,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 265.176 232.156 0)
+			(at 261.366 224.536 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15505,7 +16335,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 262.382 231.14 90)
+			(at 258.572 223.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15516,7 +16346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 231.14 0)
+			(at 260.35 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15527,7 +16357,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 264.16 231.14 0)
+			(at 260.35 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15547,87 +16377,6 @@
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 311.15 92.71 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "57c76afc-1362-45ee-ad6b-c4eb40c37d19")
-		(property "Reference" "D2"
-			(at 312.674 93.726 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SGSD15C"
-			(at 311.404 96.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 311.15 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/5783139.html?fromZone=s_s__%2522GSD15C%2522&spm=sc.gbn.xh1.zy.n___sc.it.ss&lcsc_vid=RVNYAVJTRFhdBVBSTgRdBVdfTlVdAVMHRwMPVVxXEwAxVlNRQVFaX1dQQ1RXVjsOAxUeFF5JWAIASQYPGQZABAsLWA%3D%3D"
-			(at 311.15 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 311.15 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6e054433-9c97-40b9-b61e-ab388b592169")
-		)
-		(pin "1"
-			(uuid "4e0eb1aa-933f-4df2-90b7-fcc12eb767d5")
-		)
-		(instances
-			(project "nova_sensors"
-				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -15800,7 +16549,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ead8e62-0db0-4fd0-9e6b-b8fb446ec49c")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 118.364 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15869,7 +16618,7 @@
 		(instances
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -16039,7 +16788,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 236.22 231.14 0)
+		(at 228.6 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16049,7 +16798,7 @@
 		(dnp no)
 		(uuid "62c4f20f-e22b-4a3d-8a48-79a1505a36c6")
 		(property "Reference" "R14"
-			(at 237.236 229.616 0)
+			(at 229.616 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16060,7 +16809,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 237.236 232.156 0)
+			(at 229.616 224.536 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16071,7 +16820,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 234.442 231.14 90)
+			(at 226.822 223.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16082,7 +16831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 231.14 0)
+			(at 228.6 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16093,7 +16842,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 236.22 231.14 0)
+			(at 228.6 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16208,7 +16957,7 @@
 		(dnp no)
 		(uuid "6621adb9-3465-4a4b-a6d5-535d8d13c275")
 		(property "Reference" "R10"
-			(at 31.496 177.038 90)
+			(at 29.972 177.038 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16218,7 +16967,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 34.798 177.038 90)
+			(at 35.56 177.038 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16270,6 +17019,87 @@
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ8.0CA")
+		(at 321.31 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "681fa771-4eb9-4d4f-a1af-96b18d6a0f94")
+		(property "Reference" "D3"
+			(at 323.088 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ8.0CA"
+			(at 318.77 88.392 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 326.39 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 321.31 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 8.0Vr, SMA(DO-214AC)"
+			(at 321.31 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4cce9d57-867b-4138-989a-263667eae733")
+		)
+		(pin "1"
+			(uuid "d583ff02-c735-42b6-b031-b99a2fc889b1")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -16609,7 +17439,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7213036e-6a22-4c9e-84bb-934942b4e8bf")
-		(property "Reference" "J12"
+		(property "Reference" "J1"
 			(at 350.266 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16676,7 +17506,7 @@
 		(instances
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "J12")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -16842,6 +17672,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 373.38 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74b0f9e3-6ef0-429f-b62c-83e0e2538864")
+		(property "Reference" "J4"
+			(at 374.396 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 374.65 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
+			(at 373.38 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 373.38 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "定义" "RS485_2"
+			(at 378.46 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2213c5cf-93bc-46ea-b5f3-ddb6216f0d3a")
+		)
+		(pin "2"
+			(uuid "61cab4f5-1d7c-4721-8de3-1fdca47e2e20")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 287.02 172.72 0)
 		(unit 1)
@@ -16852,7 +17774,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77e27f17-ab3f-4017-95c1-f46c19be3194")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 287.02 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -16912,7 +17834,7 @@
 		(instances
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -16929,7 +17851,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c61b684-9394-46a3-abe2-a1ae7c28868a")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 25.4 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -16989,7 +17911,7 @@
 		(instances
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -17151,7 +18073,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 280.67 274.32 0)
+		(at 283.21 274.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17160,8 +18082,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "819300b1-10d1-48b9-b934-3c49b90368d0")
-		(property "Reference" "#PWR038"
-			(at 280.67 280.67 0)
+		(property "Reference" "#PWR041"
+			(at 283.21 280.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17172,7 +18094,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 280.67 278.13 0)
+			(at 283.21 278.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17182,7 +18104,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 274.32 0)
+			(at 283.21 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17193,7 +18115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 274.32 0)
+			(at 283.21 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17204,7 +18126,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 280.67 274.32 0)
+			(at 283.21 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17220,7 +18142,7 @@
 		(instances
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "#PWR038")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -17237,7 +18159,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "829b3c05-f418-4d69-bb25-ec88403d1412")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 140.97 254 0)
 			(hide yes)
 			(show_name no)
@@ -17297,7 +18219,7 @@
 		(instances
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -17456,6 +18378,87 @@
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ5.0CA")
+		(at 341.63 236.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88dd64b5-a72c-4ce6-a48e-e0b630c2732b")
+		(property "Reference" "D15"
+			(at 344.17 234.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ3.3CA"
+			(at 339.09 231.902 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+			(at 346.71 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 341.63 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 341.63 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aa9d837d-1c1e-4983-a6f9-b845c6a38cfe")
+		)
+		(pin "1"
+			(uuid "18b87a8e-f4cc-4a73-a70d-d23ae6f554fd")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -17789,6 +18792,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ5.0CA")
+		(at 222.25 233.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92cb75bf-2796-4ee1-954a-5aac7c59377f")
+		(property "Reference" "D10"
+			(at 223.52 232.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ3.3CA"
+			(at 219.71 229.362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+			(at 227.33 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 222.25 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 222.25 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "91ccdede-e84c-4bf7-84fb-a358f357dfab")
+		)
+		(pin "1"
+			(uuid "d2f68a43-0fac-4e59-a69b-d2cd96e5d56a")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 297.18 63.5 90)
 		(unit 1)
@@ -17948,6 +19032,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 368.3 243.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9afa9a2b-f160-4d1c-80b3-7bd69159e1ba")
+		(property "Reference" "#PWR037"
+			(at 368.3 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 368.3 247.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 368.3 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a500816b-b23b-4eb8-b9d0-fe6b04dd7761")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 67.31 271.78 0)
 		(unit 1)
 		(body_style 1)
@@ -17957,7 +19118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b2e7806-6fdc-40df-906d-d9aa6758e3d5")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 67.31 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -18017,7 +19178,7 @@
 		(instances
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -18034,8 +19195,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b9445c0-0318-4040-8ba6-fe3432fe2153")
-		(property "Reference" "R11"
-			(at 31.496 182.118 90)
+		(property "Reference" "R13"
+			(at 30.226 182.118 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18045,7 +19206,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 34.798 182.118 90)
+			(at 35.56 181.864 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18096,7 +19257,7 @@
 		(instances
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -18251,6 +19412,87 @@
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ5.0CA")
+		(at 359.41 236.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a5adec00-8c49-4d7d-9a26-b776f86952ea")
+		(property "Reference" "D17"
+			(at 361.95 234.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ3.3CA"
+			(at 356.87 231.902 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+			(at 364.49 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 359.41 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 359.41 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4d7feded-adb2-4446-95c6-5e33bca99f50")
+		)
+		(pin "1"
+			(uuid "973c143d-4060-4d72-944e-c23900d168d6")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -18511,7 +19753,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 269.24 267.97 0)
+		(at 271.78 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18522,7 +19764,7 @@
 		(fields_autoplaced yes)
 		(uuid "ade93b9d-a96f-48a6-af67-03a048eba91d")
 		(property "Reference" "H3"
-			(at 271.78 265.4299 0)
+			(at 274.32 265.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18533,7 +19775,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 271.78 267.9699 0)
+			(at 274.32 267.9699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18544,8 +19786,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 269.24 267.97 0)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
+			(at 271.78 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18556,7 +19798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 267.97 0)
+			(at 271.78 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18567,7 +19809,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 269.24 267.97 0)
+			(at 271.78 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19097,6 +20339,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 43.18 222.25 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b877d8d2-3c0b-4581-ac13-5d07ca79f0b8")
+		(property "Reference" "J7"
+			(at 41.91 222.2501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 41.91 219.7101 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
+			(at 43.18 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "PWR"
+			(at 40.64 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4308fcb-bd48-4385-9196-fbd9ffbcfef7")
+		)
+		(pin "2"
+			(uuid "86e293ad-8510-46a8-94f4-982e2f060d10")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "nova_sensors:AT32F455CET7")
 		(at 67.31 71.12 0)
 		(unit 1)
@@ -19164,9 +20487,11 @@
 		)
 		(pin "5"
 			(uuid "6533e644-48aa-4bf2-8e8c-63cdace03929")
+			(alternate "HEXT_IN")
 		)
 		(pin "31"
 			(uuid "f368eac1-03fc-4ca5-bdcd-398ab0d61649")
+			(alternate "USART1_RX")
 		)
 		(pin "29"
 			(uuid "0ad0201a-a2a1-41d8-af3a-b6dd6a5b366e")
@@ -19176,12 +20501,15 @@
 		)
 		(pin "25"
 			(uuid "240dacb6-1bea-43f0-97d3-03a8e4988abd")
+			(alternate "USART5_RX")
 		)
 		(pin "32"
 			(uuid "d4c2e144-a9b2-47cf-9461-ba102711dfc2")
+			(alternate "USART4_RX")
 		)
 		(pin "21"
 			(uuid "1125ec88-437b-4625-89c7-8dae5c5f96da")
+			(alternate "USART3_TX")
 		)
 		(pin "20"
 			(uuid "1626eabe-e69a-4bf4-9505-bcaf35feb64e")
@@ -19197,12 +20525,14 @@
 		)
 		(pin "12"
 			(uuid "349ef3c9-cdd2-44f8-ad5f-0346324c2256")
+			(alternate "USART2_TX")
 		)
 		(pin "39"
 			(uuid "777aa38a-e9f3-40d5-9cb1-556347cb4d5a")
 		)
 		(pin "26"
 			(uuid "017de2d4-1c25-4bdc-83bc-bc0f8e91e821")
+			(alternate "USART5_TX")
 		)
 		(pin "28"
 			(uuid "0dcca42d-e42c-402d-8edf-4b5bbd254755")
@@ -19212,12 +20542,14 @@
 		)
 		(pin "3"
 			(uuid "af9fc367-8b88-45ef-a847-211fff2d5687")
+			(alternate "LEXT_IN")
 		)
 		(pin "11"
 			(uuid "b93f5838-0b56-4fa8-a8fa-d3b73fb001d9")
 		)
 		(pin "13"
 			(uuid "d0b61ec0-c3ed-40de-ba28-95d9a5737f45")
+			(alternate "USART2_RX")
 		)
 		(pin "14"
 			(uuid "c453ee1a-b85b-46c0-a49e-b199168099bb")
@@ -19236,6 +20568,7 @@
 		)
 		(pin "30"
 			(uuid "38303199-fa58-4456-b7b1-1ee16f18591b")
+			(alternate "USART1_TX")
 		)
 		(pin "2"
 			(uuid "a2c59747-ab3d-43f1-82b0-1a4af7c1b657")
@@ -19254,12 +20587,15 @@
 		)
 		(pin "22"
 			(uuid "4a0583e1-e466-48b1-94da-429f4c628d2f")
+			(alternate "USART3_RX")
 		)
 		(pin "4"
 			(uuid "b009c73f-03c4-4130-8273-97446c33ab64")
+			(alternate "LEXT_OUT")
 		)
 		(pin "6"
 			(uuid "4c3c7740-4b34-41cf-9f33-3d800cd4572a")
+			(alternate "HEXT_OUT")
 		)
 		(pin "8"
 			(uuid "f41a1159-e523-4f90-92c3-ac26dd08b7b4")
@@ -19287,6 +20623,7 @@
 		)
 		(pin "33"
 			(uuid "6654b759-51de-4811-b681-a6cf75ad4cd8")
+			(alternate "USART4_TX")
 		)
 		(pin "43"
 			(uuid "c2cac6df-ede7-4883-b4bd-2f83499bbcba")
@@ -19326,7 +20663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bada0eff-b121-42df-9fdc-e0848b3819a7")
-		(property "Reference" "R12"
+		(property "Reference" "R11"
 			(at 256.54 178.054 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19390,7 +20727,7 @@
 		(instances
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -19477,7 +20814,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 271.78 236.22 0)
+		(at 236.22 228.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19487,7 +20824,7 @@
 		(dnp no)
 		(uuid "bb7ba959-2906-428a-81c7-9cb5bfbd4e7b")
 		(property "Reference" "J9"
-			(at 272.796 236.22 0)
+			(at 237.236 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19498,7 +20835,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 273.05 238.76 0)
+			(at 237.49 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19510,7 +20847,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
-			(at 271.78 236.22 0)
+			(at 236.22 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19521,7 +20858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 236.22 0)
+			(at 236.22 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19532,7 +20869,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 271.78 236.22 0)
+			(at 236.22 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19542,8 +20879,8 @@
 				)
 			)
 		)
-		(property "定义" "ADC_IN0"
-			(at 276.86 238.76 0)
+		(property "定义" "ADC_IN1"
+			(at 241.3 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19947,7 +21284,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c36e2512-2534-414d-8aa9-594b13c94f1f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 49.53 254 0)
 			(hide yes)
 			(show_name no)
@@ -20007,7 +21344,88 @@
 		(instances
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "#PWR036")
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ8.0CA")
+		(at 331.47 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc586e8f-d356-4361-aaa6-7590f27e1ffe")
+		(property "Reference" "D4"
+			(at 333.248 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ8.0CA"
+			(at 329.184 88.392 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 336.55 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 331.47 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 8.0Vr, SMA(DO-214AC)"
+			(at 331.47 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9e73ac78-4346-4b19-b5b1-4d11d4652acf")
+		)
+		(pin "1"
+			(uuid "13453710-f9d7-47b3-ba63-24c4bd53e45e")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -20096,7 +21514,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 243.84 236.22 0)
+		(at 267.97 228.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20106,7 +21524,7 @@
 		(dnp no)
 		(uuid "cdef9d65-9f9d-46e0-8382-7ff248f381b1")
 		(property "Reference" "J8"
-			(at 244.856 236.22 0)
+			(at 268.986 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20117,7 +21535,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 244.856 238.506 0)
+			(at 268.986 230.886 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20129,7 +21547,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
-			(at 243.84 236.22 0)
+			(at 267.97 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20140,7 +21558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 236.22 0)
+			(at 267.97 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20151,7 +21569,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 243.84 236.22 0)
+			(at 267.97 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20161,8 +21579,8 @@
 				)
 			)
 		)
-		(property "定义" "ADC_IN1"
-			(at 248.92 238.76 0)
+		(property "定义" "ADC_IN0"
+			(at 273.05 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20197,7 +21615,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce4188c2-72a1-49b3-a7a4-c0dbce769b06")
-		(property "Reference" "D10"
+		(property "Reference" "D18"
 			(at 107.696 261.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20261,7 +21679,7 @@
 		(instances
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "D10")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -20443,90 +21861,6 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 322.58 237.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d04fbff6-730a-45d3-990b-21164554eeb3")
-		(property "Reference" "J10"
-			(at 323.85 236.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 323.85 238.7599 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal"
-			(at 322.58 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.58 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "IN"
-			(at 325.12 238.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "70b0dd68-7e7c-4024-906e-2d2d9e0bc143")
-		)
-		(pin "3"
-			(uuid "92897e8b-3b60-43dc-ba8e-e77d486ecc4d")
-		)
-		(pin "2"
-			(uuid "b8a8580a-ead0-4e07-8775-5226f7c68956")
-		)
-		(instances
-			(project "nova_sensors"
-				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
 		(at 349.25 88.9 0)
 		(unit 1)
 		(body_style 1)
@@ -20536,7 +21870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0db0765-1bb1-401f-85ad-058095e5e103")
-		(property "Reference" "J13"
+		(property "Reference" "J2"
 			(at 350.266 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20603,7 +21937,7 @@
 		(instances
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "J13")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -20766,87 +22100,6 @@
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 331.47 92.71 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d5691b8c-5ab3-4f1a-bee2-b974ba428fc7")
-		(property "Reference" "D4"
-			(at 332.994 93.726 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SGSD15C"
-			(at 331.724 96.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 331.47 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/5783139.html?fromZone=s_s__%2522GSD15C%2522&spm=sc.gbn.xh1.zy.n___sc.it.ss&lcsc_vid=RVNYAVJTRFhdBVBSTgRdBVdfTlVdAVMHRwMPVVxXEwAxVlNRQVFaX1dQQ1RXVjsOAxUeFF5JWAIASQYPGQZABAsLWA%3D%3D"
-			(at 331.47 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 331.47 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5cbe875b-4a1b-4ee0-814e-065f25463dff")
-		)
-		(pin "1"
-			(uuid "2fb999cf-f103-41d0-a4d5-5673e86160aa")
-		)
-		(instances
-			(project "nova_sensors"
-				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -21413,6 +22666,168 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ5.0CA")
+		(at 350.52 236.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e853e2f1-2c83-4147-abd6-d154163099cb")
+		(property "Reference" "D16"
+			(at 353.06 234.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ3.3CA"
+			(at 347.98 231.902 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+			(at 355.6 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 350.52 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 350.52 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4c220cce-959d-4a73-ba23-24d1aeca4f9d")
+		)
+		(pin "1"
+			(uuid "e12c191d-e08a-4829-a470-ff614866b2ab")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ8.0CA")
+		(at 300.99 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e8adf79c-13f8-4481-bf2c-5a7f5d17632a")
+		(property "Reference" "D1"
+			(at 302.768 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ8.0CA"
+			(at 298.45 88.392 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 306.07 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 300.99 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 8.0Vr, SMA(DO-214AC)"
+			(at 300.99 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3694a88f-fa5b-46f5-8103-c7e42cbbef54")
+		)
+		(pin "1"
+			(uuid "6642617f-ba0a-4798-afa9-d7f7c92a5a87")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal")
 		(at 163.83 88.9 90)
 		(unit 1)
@@ -21495,7 +22910,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 240.03 0)
+		(at 228.6 240.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21505,7 +22920,7 @@
 		(dnp no)
 		(uuid "f494ce56-446a-4dc7-a103-cd14667a087e")
 		(property "Reference" "#PWR034"
-			(at 236.22 246.38 0)
+			(at 228.6 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21516,7 +22931,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 243.84 0)
+			(at 228.6 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21526,7 +22941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 240.03 0)
+			(at 228.6 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21537,7 +22952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 240.03 0)
+			(at 228.6 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21548,7 +22963,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 240.03 0)
+			(at 228.6 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21572,7 +22987,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x02")
-		(at 90.17 181.61 0)
+		(at 95.25 181.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21582,7 +22997,7 @@
 		(dnp no)
 		(uuid "f57508e1-dfa1-4082-90fc-b5ee986984e0")
 		(property "Reference" "SW3"
-			(at 91.44 175.006 0)
+			(at 96.52 175.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21592,7 +23007,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x02"
-			(at 90.17 173.99 0)
+			(at 95.25 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21603,7 +23018,7 @@
 			)
 		)
 		(property "Footprint" "nova_sensors:SW-SMD_2P-L5.1-W6.2-P2.54-LS9.4-BL"
-			(at 90.17 181.61 0)
+			(at 95.25 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21614,7 +23029,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 181.61 0)
+			(at 95.25 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21625,7 +23040,7 @@
 			)
 		)
 		(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 90.17 181.61 0)
+			(at 95.25 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21748,7 +23163,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f82ba304-1f89-41fd-88e2-fe0526f8a836")
-		(property "Reference" "D11"
+		(property "Reference" "D19"
 			(at 170.942 264.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21821,7 +23236,7 @@
 		(instances
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "D11")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -21903,6 +23318,98 @@
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 284.48 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fbaed87d-dc01-4738-bd75-949133791e01")
+		(property "Reference" "J5"
+			(at 285.496 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 285.75 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
+			(at 284.48 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 284.48 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "定义" "RS485_1"
+			(at 289.56 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e802f1b-0904-4ff9-98d4-5eb78f37a733")
+		)
+		(pin "2"
+			(uuid "657936a4-b372-4a06-9878-2c722acc83c2")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -22077,7 +23584,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fccc72d9-5866-49c9-8816-593998603255")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 379.73 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -22137,7 +23644,7 @@
 		(instances
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -22222,7 +23729,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 182.88 0)
+		(at 104.14 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22232,7 +23739,7 @@
 		(dnp no)
 		(uuid "fdaa83e3-0192-4ff0-875d-ee779e9d4986")
 		(property "Reference" "#PWR022"
-			(at 99.06 189.23 0)
+			(at 104.14 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22243,7 +23750,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 186.69 0)
+			(at 104.14 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22253,7 +23760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 182.88 0)
+			(at 104.14 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22264,7 +23771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 182.88 0)
+			(at 104.14 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22275,7 +23782,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 182.88 0)
+			(at 104.14 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

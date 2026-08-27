@@ -7,7 +7,7 @@
 	(title_block
 		(title "诺瓦控制卡传感器转接板")
 		(date "2026-08-20")
-		(rev "V0.0.1")
+		(rev "V0.0.2")
 		(company "重庆创迪科技发展有限公司")
 	)
 	(lib_symbols
@@ -7182,7 +7182,7 @@
 	)
 	(text "MOUNT PAD"
 		(exclude_from_sim no)
-		(at 237.49 279.654 0)
+		(at 237.49 278.638 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -7443,7 +7443,7 @@
 		(uuid "46ea222e-ced2-452d-80bf-b5a0ba5bb519")
 	)
 	(junction
-		(at 260.35 273.05)
+		(at 260.35 271.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47ef5e35-26cb-44de-ab11-87f3b6819673")
@@ -7545,10 +7545,22 @@
 		(uuid "816de08d-aa32-42ee-adb4-f8f7af8a1f02")
 	)
 	(junction
+		(at 167.64 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82223d49-9037-4c63-a2ec-0cc30ef43cf5")
+	)
+	(junction
 		(at 102.87 256.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82eadbc4-8e72-4607-82ff-a0878886fa12")
+	)
+	(junction
+		(at 163.83 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85b74c70-69e5-4cc1-ae79-f52026c875d3")
 	)
 	(junction
 		(at 321.31 100.33)
@@ -7581,7 +7593,7 @@
 		(uuid "8be0da16-eab8-49a0-8464-f8b1401215e0")
 	)
 	(junction
-		(at 271.78 273.05)
+		(at 271.78 271.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c764720-035c-49d7-8707-fef3fa791d0e")
@@ -7749,6 +7761,12 @@
 		(uuid "d2bdad2a-86b6-4da0-93f1-5d10c81ea607")
 	)
 	(junction
+		(at 167.64 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5bd102b-ee0f-4629-adc1-69c3ffb7b22c")
+	)
+	(junction
 		(at 255.27 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7839,7 +7857,7 @@
 		(uuid "f2e6829c-f7d8-4d52-b43b-10df4ccf6e06")
 	)
 	(junction
-		(at 283.21 273.05)
+		(at 283.21 271.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f35ccde5-4df9-4578-8a50-467860c66519")
@@ -7966,7 +7984,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 163.83) (xy 158.75 163.83)
+			(xy 170.18 163.83) (xy 163.83 163.83)
 		)
 		(stroke
 			(width 0)
@@ -8246,7 +8264,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 270.51) (xy 248.92 273.05)
+			(xy 248.92 269.24) (xy 248.92 271.78)
 		)
 		(stroke
 			(width 0)
@@ -8273,6 +8291,16 @@
 			(type default)
 		)
 		(uuid "12e137de-ee25-4e1c-8986-f9183a63a72b")
+	)
+	(wire
+		(pts
+			(xy 167.64 161.29) (xy 167.64 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13569c9c-8977-4327-934c-44dc0854c7aa")
 	)
 	(wire
 		(pts
@@ -8646,6 +8674,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 153.67) (xy 163.83 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29980d41-8e90-469e-a1d5-1d4e48b1129c")
+	)
+	(wire
+		(pts
 			(xy 180.34 129.54) (xy 181.61 129.54)
 		)
 		(stroke
@@ -8656,7 +8694,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 273.05) (xy 260.35 273.05)
+			(xy 248.92 271.78) (xy 260.35 271.78)
 		)
 		(stroke
 			(width 0)
@@ -8763,6 +8801,16 @@
 			(type default)
 		)
 		(uuid "35685c03-ad63-4fbd-9896-535944cf4ad9")
+	)
+	(wire
+		(pts
+			(xy 163.83 152.4) (xy 167.64 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a41f52-013a-4c9c-9ece-60efb2e7309a")
 	)
 	(wire
 		(pts
@@ -8956,7 +9004,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 270.51) (xy 260.35 273.05)
+			(xy 260.35 269.24) (xy 260.35 271.78)
 		)
 		(stroke
 			(width 0)
@@ -9106,7 +9154,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 270.51) (xy 271.78 273.05)
+			(xy 271.78 269.24) (xy 271.78 271.78)
 		)
 		(stroke
 			(width 0)
@@ -9206,7 +9254,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 270.51) (xy 283.21 273.05)
+			(xy 283.21 269.24) (xy 283.21 271.78)
 		)
 		(stroke
 			(width 0)
@@ -9533,6 +9581,16 @@
 			(type default)
 		)
 		(uuid "627e5a1a-ccd3-49c4-b4c7-cf438be5a370")
+	)
+	(wire
+		(pts
+			(xy 167.64 168.91) (xy 167.64 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "630ad7f0-6e28-4141-9ce4-492f7286630a")
 	)
 	(wire
 		(pts
@@ -9896,7 +9954,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 273.05) (xy 283.21 273.05)
+			(xy 271.78 271.78) (xy 283.21 271.78)
 		)
 		(stroke
 			(width 0)
@@ -10036,7 +10094,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 273.05) (xy 271.78 273.05)
+			(xy 260.35 271.78) (xy 271.78 271.78)
 		)
 		(stroke
 			(width 0)
@@ -10133,6 +10191,16 @@
 			(type default)
 		)
 		(uuid "815e360a-bfba-498b-abfc-4576709a52b9")
+	)
+	(wire
+		(pts
+			(xy 167.64 151.13) (xy 167.64 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816af0f3-ca1f-4e54-8733-280de7fc139f")
 	)
 	(wire
 		(pts
@@ -10316,6 +10384,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 161.29) (xy 163.83 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6325eb-09e0-43b9-a0b7-46b133e7cfe5")
+	)
+	(wire
+		(pts
 			(xy 67.31 251.46) (xy 67.31 256.54)
 		)
 		(stroke
@@ -10463,6 +10541,16 @@
 			(type default)
 		)
 		(uuid "93afb61e-3f33-4512-8c39-58e90bf90a59")
+	)
+	(wire
+		(pts
+			(xy 163.83 163.83) (xy 149.86 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9443cfc1-f691-48eb-bae8-ac9fb0432ad8")
 	)
 	(polyline
 		(pts
@@ -10666,7 +10754,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 273.05) (xy 283.21 274.32)
+			(xy 283.21 271.78) (xy 283.21 273.05)
 		)
 		(stroke
 			(width 0)
@@ -10796,6 +10884,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 166.37) (xy 149.86 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa22f8dc-2da7-4b10-b84b-3d7a8bf46382")
+	)
+	(wire
+		(pts
 			(xy 162.56 93.98) (xy 163.83 93.98)
 		)
 		(stroke
@@ -10846,7 +10944,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 166.37) (xy 158.75 166.37)
+			(xy 170.18 166.37) (xy 167.64 166.37)
 		)
 		(stroke
 			(width 0)
@@ -10953,6 +11051,16 @@
 			(type default)
 		)
 		(uuid "b35c6fad-9558-4e19-9235-fc9fb9d4ac78")
+	)
+	(wire
+		(pts
+			(xy 167.64 152.4) (xy 167.64 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4471302-c814-4819-a09a-4b55aac2fd97")
 	)
 	(wire
 		(pts
@@ -11946,6 +12054,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 168.91) (xy 167.64 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb2d261-5179-456a-937a-8b3d46bf6456")
+	)
+	(wire
+		(pts
 			(xy 359.41 231.14) (xy 370.84 231.14)
 		)
 		(stroke
@@ -12525,7 +12643,7 @@
 		(uuid "af3ed9b8-fafa-424f-81b9-169155fcfc70")
 	)
 	(label "TTL_RX"
-		(at 158.75 166.37 0)
+		(at 149.86 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12605,7 +12723,7 @@
 		(uuid "cb6fa329-aae1-4e8a-b644-4ac8c964e166")
 	)
 	(label "TTL_TX"
-		(at 158.75 163.83 0)
+		(at 149.86 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12766,7 +12884,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX13487EESA+T"
+		(property "Value" "MAX13488EESA+T"
 			(at 222.25 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13009,7 +13127,7 @@
 		(dnp no)
 		(uuid "07dcfb40-424f-48a3-8cb4-1257d24cfa08")
 		(property "Reference" "D13"
-			(at 302.26 234.9499 90)
+			(at 300.736 234.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13341,7 +13459,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF/16V"
+		(property "Value" "22uF/10V"
 			(at 140.97 262.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13412,7 +13530,7 @@
 		(dnp no)
 		(uuid "174d1d77-de94-4dd8-aa4d-cd5467034829")
 		(property "Reference" "D12"
-			(at 293.37 234.9499 90)
+			(at 291.846 234.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13956,8 +14074,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 175.26 163.83 0)
+		(lib_id "Device:R")
+		(at 163.83 157.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13965,32 +14083,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2397bed7-5bb4-480d-8bd8-963f5f99d76b")
-		(property "Reference" "J6"
-			(at 176.276 163.83 0)
+		(uuid "25bbfd45-2b41-497d-a2b8-abf41e42233b")
+		(property "Reference" "R19"
+			(at 160.528 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 176.53 166.37 0)
-			(hide yes)
+		(property "Value" "4K7"
+			(at 160.528 159.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
-			(at 175.26 163.83 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 165.608 157.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14001,7 +14116,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 163.83 0)
+			(at 163.83 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14011,19 +14126,9 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 175.26 163.83 0)
+		(property "Description" "Resistor"
+			(at 163.83 157.48 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "定义" "TTL"
-			(at 178.308 166.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14033,15 +14138,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0cd64000-4866-423c-ba53-f42800256aaa")
+			(uuid "e0ad635b-ea1c-4203-94f8-5efc235dcbfe")
 		)
 		(pin "2"
-			(uuid "2190d75b-01e3-4d97-bb01-a044fa2edbd5")
+			(uuid "4310b937-e3d1-4588-b99d-b126c2a50732")
 		)
 		(instances
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
-					(reference "J6")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -14620,7 +14725,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 248.92 267.97 0)
+		(at 248.92 266.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14631,7 +14736,7 @@
 		(fields_autoplaced yes)
 		(uuid "34487c3f-873e-41c6-ba7d-23fa467a963f")
 		(property "Reference" "H1"
-			(at 251.46 265.4299 0)
+			(at 251.46 264.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14642,7 +14747,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 251.46 267.9699 0)
+			(at 251.46 266.6999 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14654,7 +14759,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 248.92 267.97 0)
+			(at 248.92 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14665,7 +14770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 267.97 0)
+			(at 248.92 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14676,7 +14781,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 248.92 267.97 0)
+			(at 248.92 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14878,7 +14983,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMAJ8.0CA"
+		(property "Value" "SMAJ5.0CA"
 			(at 308.356 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15336,7 +15441,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 260.35 267.97 0)
+		(at 260.35 266.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15347,7 +15452,7 @@
 		(fields_autoplaced yes)
 		(uuid "438a4ecd-d3dc-4379-95d8-da9f9b2e829c")
 		(property "Reference" "H2"
-			(at 262.89 265.4299 0)
+			(at 262.89 264.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15358,7 +15463,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 262.89 267.9699 0)
+			(at 262.89 266.6999 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15370,7 +15475,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
-			(at 260.35 267.97 0)
+			(at 260.35 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15381,7 +15486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 267.97 0)
+			(at 260.35 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15392,7 +15497,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 260.35 267.97 0)
+			(at 260.35 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15436,7 +15541,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX13487EESA+T"
+		(property "Value" "MAX13488EESA+T"
 			(at 311.15 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15844,7 +15949,7 @@
 		(dnp no)
 		(uuid "479c6405-b7a6-431e-8437-4da97067884a")
 		(property "Reference" "D14"
-			(at 311.15 234.9499 90)
+			(at 309.626 234.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16072,6 +16177,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 175.26 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c0b0be9-b29c-4d00-8cf9-3e44e418a01a")
+		(property "Reference" "J6"
+			(at 176.276 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 176.53 167.6399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal"
+			(at 175.26 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TTL"
+			(at 180.34 168.148 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6ff0bde5-10e5-4e4d-b935-fba7f2a7dff1")
+		)
+		(pin "1"
+			(uuid "fc30f001-293e-4419-afbc-99769211bbc3")
+		)
+		(pin "3"
+			(uuid "8a6db76f-03d2-4430-b8be-592e18e56bea")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 67.31 260.35 0)
 		(unit 1)
@@ -16231,7 +16420,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 283.21 267.97 0)
+		(at 283.21 266.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16242,7 +16431,7 @@
 		(fields_autoplaced yes)
 		(uuid "5165552d-ab7e-4744-ab1e-d3001eef0e94")
 		(property "Reference" "H4"
-			(at 285.75 265.4299 0)
+			(at 285.75 264.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16253,7 +16442,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 285.75 267.9699 0)
+			(at 285.75 266.6999 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16265,7 +16454,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
-			(at 283.21 267.97 0)
+			(at 283.21 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16276,7 +16465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 267.97 0)
+			(at 283.21 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16287,7 +16476,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 283.21 267.97 0)
+			(at 283.21 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16710,6 +16899,85 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 167.64 157.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6299da36-54c1-4d74-9fa7-16e687b21cf4")
+		(property "Reference" "R20"
+			(at 170.688 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4K7"
+			(at 170.688 159.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 169.418 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3bf539bc-3619-478b-99b9-2bcbf0444089")
+		)
+		(pin "2"
+			(uuid "ac0ba299-132a-4708-b944-2374cebd7458")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 228.6 223.52 0)
 		(unit 1)
 		(body_style 1)
@@ -16968,7 +17236,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMAJ8.0CA"
+		(property "Value" "SMAJ5.0CA"
 			(at 318.77 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18082,7 +18350,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 283.21 274.32 0)
+		(at 283.21 273.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18092,7 +18360,7 @@
 		(dnp no)
 		(uuid "819300b1-10d1-48b9-b934-3c49b90368d0")
 		(property "Reference" "#PWR041"
-			(at 283.21 280.67 0)
+			(at 283.21 279.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18103,7 +18371,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 283.21 278.13 0)
+			(at 283.21 276.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18113,7 +18381,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 274.32 0)
+			(at 283.21 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18124,7 +18392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 274.32 0)
+			(at 283.21 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18135,7 +18403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 283.21 274.32 0)
+			(at 283.21 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18404,7 +18672,7 @@
 		(dnp no)
 		(uuid "88dd64b5-a72c-4ce6-a48e-e0b630c2732b")
 		(property "Reference" "D15"
-			(at 344.17 234.9499 90)
+			(at 342.646 234.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19438,7 +19706,7 @@
 		(dnp no)
 		(uuid "a5adec00-8c49-4d7d-9a26-b776f86952ea")
 		(property "Reference" "D17"
-			(at 361.95 234.9499 90)
+			(at 360.426 234.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19762,7 +20030,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 271.78 267.97 0)
+		(at 271.78 266.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19773,7 +20041,7 @@
 		(fields_autoplaced yes)
 		(uuid "ade93b9d-a96f-48a6-af67-03a048eba91d")
 		(property "Reference" "H3"
-			(at 274.32 265.4299 0)
+			(at 274.32 264.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19784,7 +20052,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 274.32 267.9699 0)
+			(at 274.32 266.6999 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19796,7 +20064,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
-			(at 271.78 267.97 0)
+			(at 271.78 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19807,7 +20075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 267.97 0)
+			(at 271.78 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19818,7 +20086,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 271.78 267.97 0)
+			(at 271.78 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20156,6 +20424,160 @@
 			(project "nova_sensors"
 				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 167.64 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b30fa406-417e-49b5-9244-d710886b5b95")
+		(property "Reference" "#PWR042"
+			(at 167.64 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 167.64 147.574 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 167.64 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ca3798c-f0a4-4d3a-b974-50140fa22040")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5264204-99d2-4d9c-8530-d99853dd84fb")
+		(property "Reference" "#PWR043"
+			(at 167.64 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f13ee07-229f-4528-9eb7-b07525c7fbf8")
+		)
+		(instances
+			(project "nova_sensors"
+				(path "/eb470288-4665-4cf2-a36a-110564d842a4"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -21383,7 +21805,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMAJ8.0CA"
+		(property "Value" "SMAJ5.0CA"
 			(at 329.184 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22688,7 +23110,7 @@
 		(dnp no)
 		(uuid "e853e2f1-2c83-4147-abd6-d154163099cb")
 		(property "Reference" "D16"
-			(at 353.06 234.9499 90)
+			(at 351.536 234.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22779,7 +23201,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMAJ8.0CA"
+		(property "Value" "SMAJ5.0CA"
 			(at 298.45 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -525,7 +525,8 @@
       "nova_sensors"
     ],
     "pinned_symbol_libs": [
-      "nova_sensors"
+      "nova_sensors",
+      "KiCad_User"
     ]
   },
   "meta": {

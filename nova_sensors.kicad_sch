@@ -12302,7 +12302,7 @@
 		)
 		(uuid "209ff81f-0a2c-48f5-9039-420af8e193c5")
 	)
-	(label "ADC_IN1"
+	(label "ADC2"
 		(at 33.02 88.9 0)
 		(effects
 			(font
@@ -12312,7 +12312,7 @@
 		)
 		(uuid "226f8672-1d1d-49cb-8b79-c11ebc360dd5")
 	)
-	(label "ADC_IN1"
+	(label "ADC2"
 		(at 218.44 228.6 0)
 		(effects
 			(font
@@ -12322,7 +12322,7 @@
 		)
 		(uuid "271a0828-2b16-4a35-a847-2232ee48c88f")
 	)
-	(label "ADC_IN0"
+	(label "ADC1"
 		(at 250.19 228.6 0)
 		(effects
 			(font
@@ -12782,7 +12782,7 @@
 		)
 		(uuid "e16d580d-3442-49d5-a326-f332f643f59f")
 	)
-	(label "ADC_IN0"
+	(label "ADC1"
 		(at 33.02 86.36 0)
 		(effects
 			(font
@@ -21016,7 +21016,7 @@
 		)
 		(pin "19"
 			(uuid "b55c186f-8396-4c84-bba4-5cba66c0b41d")
-			(alternate "ADC1_IN9")
+			(alternate "ADC2_IN9")
 		)
 		(pin "22"
 			(uuid "4a0583e1-e466-48b1-94da-429f4c628d2f")
@@ -21312,8 +21312,8 @@
 				)
 			)
 		)
-		(property "定义" "ADC_IN1"
-			(at 241.3 231.14 0)
+		(property "定义" "ADC2"
+			(at 239.522 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22012,8 +22012,8 @@
 				)
 			)
 		)
-		(property "定义" "ADC_IN0"
-			(at 273.05 231.14 0)
+		(property "定义" "ADC1"
+			(at 271.272 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

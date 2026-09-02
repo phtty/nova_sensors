@@ -13157,7 +13157,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 304.8 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -13398,7 +13398,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 259.08 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -13560,7 +13560,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 295.91 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -15088,7 +15088,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 316.23 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16063,7 +16063,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 313.69 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -17259,7 +17259,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 326.39 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -18705,7 +18705,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 346.71 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -19113,7 +19113,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 227.33 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -19739,7 +19739,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 364.49 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -21628,7 +21628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 273.05 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -21910,7 +21910,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 336.55 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -23144,7 +23144,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 355.6 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -23225,7 +23225,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 306.07 92.71 0)
 			(hide yes)
 			(show_name no)

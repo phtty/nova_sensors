@@ -5,9 +5,9 @@
 	(uuid "eb470288-4665-4cf2-a36a-110564d842a4")
 	(paper "A3")
 	(title_block
-		(title "诺瓦控制卡传感器转接板")
-		(date "2026-08-31")
-		(rev "V0.0.2")
+		(title "诺瓦传感器驱动板")
+		(date "2026-09-29")
+		(rev "V1.0.0")
 		(company "重庆创迪科技发展有限公司")
 	)
 	(lib_symbols
@@ -14333,7 +14333,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "12pF/±1%"
 			(at 159.893 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19329,8 +19329,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K5/1%"
-			(at 221.996 235.458 0)
+		(property "Value" "1K5/±1%"
+			(at 220.472 237.236 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19900,8 +19900,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K5/1%"
-			(at 275.59 235.966 0)
+		(property "Value" "1K5/±1%"
+			(at 275.59 236.982 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20859,7 +20859,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF/16V"
+		(property "Value" "220uF/35V"
 			(at 154.178 263.144 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23438,7 +23438,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "22pF/±1%"
 			(at 160.02 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24416,15 +24416,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
-			(at 164.973 82.55 90)
+		(property "Value" "12pF/±1%"
+			(at 160.02 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -24589,15 +24589,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22pF"
-			(at 164.973 60.96 90)
+		(property "Value" "22pF/±1%"
+			(at 160.02 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"

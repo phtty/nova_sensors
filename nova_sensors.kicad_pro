@@ -277,7 +277,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "V0.0.2"
+      "sch_revision": "V1.0.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -592,7 +592,7 @@
       "netlist": "",
       "plot": "produc/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "produc/nova_sensors/3d model.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -677,14 +677,38 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "描述",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "定义",
+          "name": "定义",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "位号"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -727,7 +751,7 @@
         "uuid": "eb470288-4665-4cf2-a36a-110564d842a4"
       }
     ],
-    "used_designators": "#FLG1-4,R1-22,J1-13,L1,D1-20,C1-33,C36-44,#PWR1-52,Y1-2,F1,U1-6,SW1-3,H1-5",
+    "used_designators": "#FLG1-4,R1-22,J1-13,L1,D1-20,#PWR1-52,C1-33,C36-44,Y1-2,F1,U1-6,SW1-3,H1-5",
     "variants": []
   },
   "sheets": [
